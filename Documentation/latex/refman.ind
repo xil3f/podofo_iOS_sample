@@ -1,0 +1,545 @@
+\begin{theindex}
+
+  \item {$<$\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View\discretionary {-}{}{}Delegate$>$}, 
+		\hyperpage{22}
+
+  \indexspace
+
+  \item {A\discretionary {-}{}{}N\discretionary {-}{}{}N\discretionary {-}{}{}O\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}F\discretionary {-}{}{}R\discretionary {-}{}{}E\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}T\discretionary {-}{}{}E\discretionary {-}{}{}X\discretionary {-}{}{}T}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotation.\discretionary {-}{}{}h}, 
+		\hyperpage{27}
+  \item {A\discretionary {-}{}{}N\discretionary {-}{}{}N\discretionary {-}{}{}O\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}H\discretionary {-}{}{}I\discretionary {-}{}{}G\discretionary {-}{}{}H\discretionary {-}{}{}L\discretionary {-}{}{}I\discretionary {-}{}{}G\discretionary {-}{}{}H\discretionary {-}{}{}T}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotation.\discretionary {-}{}{}h}, 
+		\hyperpage{27}
+  \item {A\discretionary {-}{}{}N\discretionary {-}{}{}N\discretionary {-}{}{}O\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}Q\discretionary {-}{}{}U\discretionary {-}{}{}A\discretionary {-}{}{}R\discretionary {-}{}{}E}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotation.\discretionary {-}{}{}h}, 
+		\hyperpage{27}
+  \item {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotation}, 
+		\hyperpage{7}
+    \subitem {annot\discretionary {-}{}{}Color}, \hyperpage{8}
+    \subitem {annotation\discretionary {-}{}{}Type}, \hyperpage{8}
+    \subitem {annotation\discretionary {-}{}{}View}, \hyperpage{8}
+    \subitem {border\discretionary {-}{}{}Width}, \hyperpage{8}
+    \subitem {font}, \hyperpage{8}
+    \subitem {init\discretionary {-}{}{}With\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Dictionary\discretionary {-}{}{}:and\discretionary {-}{}{}Type\discretionary {-}{}{}:}, 
+		\hyperpage{7}
+    \subitem {text\discretionary {-}{}{}Alignment}, \hyperpage{8}
+    \subitem {text\discretionary {-}{}{}Color}, \hyperpage{8}
+    \subitem {text\discretionary {-}{}{}String}, \hyperpage{8}
+  \item {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotation.\discretionary {-}{}{}h}
+    \subitem {A\discretionary {-}{}{}N\discretionary {-}{}{}N\discretionary {-}{}{}O\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}F\discretionary {-}{}{}R\discretionary {-}{}{}E\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}T\discretionary {-}{}{}E\discretionary {-}{}{}X\discretionary {-}{}{}T}, 
+		\hyperpage{27}
+    \subitem {A\discretionary {-}{}{}N\discretionary {-}{}{}N\discretionary {-}{}{}O\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}H\discretionary {-}{}{}I\discretionary {-}{}{}G\discretionary {-}{}{}H\discretionary {-}{}{}L\discretionary {-}{}{}I\discretionary {-}{}{}G\discretionary {-}{}{}H\discretionary {-}{}{}T}, 
+		\hyperpage{27}
+    \subitem {A\discretionary {-}{}{}N\discretionary {-}{}{}N\discretionary {-}{}{}O\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}Q\discretionary {-}{}{}U\discretionary {-}{}{}A\discretionary {-}{}{}R\discretionary {-}{}{}E}, 
+		\hyperpage{27}
+  \item {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotations\discretionary {-}{}{}V\discretionary {-}{}{}C}, 
+		\hyperpage{9}
+    \subitem {annotations}, \hyperpage{9}
+    \subitem {init\discretionary {-}{}{}With\discretionary {-}{}{}Annotations\discretionary {-}{}{}:}, 
+		\hyperpage{9}
+  \item {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}App\discretionary {-}{}{}Delegate}, 
+		\hyperpage{10}
+    \subitem {window}, \hyperpage{10}
+  \item {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{10}
+    \subitem {annot\discretionary {-}{}{}Color}, \hyperpage{12}
+    \subitem {annot\discretionary {-}{}{}Type}, \hyperpage{12}
+    \subitem {border\discretionary {-}{}{}Width}, \hyperpage{12}
+    \subitem {current\discretionary {-}{}{}Page}, \hyperpage{12}
+    \subitem {detail\discretionary {-}{}{}Item}, \hyperpage{12}
+    \subitem {doc}, \hyperpage{12}
+    \subitem {get\discretionary {-}{}{}Doc}, \hyperpage{11}
+    \subitem {initialize\discretionary {-}{}{}New\discretionary {-}{}{}Annots\discretionary {-}{}{}Values}, 
+		\hyperpage{11}
+    \subitem {max\discretionary {-}{}{}Pages}, \hyperpage{12}
+    \subitem {my\discretionary {-}{}{}Document\discretionary {-}{}{}Ref}, 
+		\hyperpage{12}
+    \subitem {n\discretionary {-}{}{}Annots\discretionary {-}{}{}Popover}, 
+		\hyperpage{12}
+    \subitem {pdf\discretionary {-}{}{}Name}, \hyperpage{12}
+    \subitem {pdf\discretionary {-}{}{}Path}, \hyperpage{12}
+    \subitem {pdf\discretionary {-}{}{}View}, \hyperpage{12}
+    \subitem {reload\discretionary {-}{}{}Annotations\discretionary {-}{}{}V\discretionary {-}{}{}C}, 
+		\hyperpage{11}
+    \subitem {show\discretionary {-}{}{}Annotations\discretionary {-}{}{}V\discretionary {-}{}{}C}, 
+		\hyperpage{11}
+    \subitem {show\discretionary {-}{}{}New\discretionary {-}{}{}Annotations\discretionary {-}{}{}V\discretionary {-}{}{}C\discretionary {-}{}{}:}, 
+		\hyperpage{11}
+    \subitem {temporary\discretionary {-}{}{}File\discretionary {-}{}{}Path}, 
+		\hyperpage{13}
+    \subitem {update\discretionary {-}{}{}Title}, \hyperpage{11}
+    \subitem {with\discretionary {-}{}{}Border}, \hyperpage{13}
+  \item {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller()}, 
+		\hyperpage{13}
+    \subitem {configure\discretionary {-}{}{}View}, \hyperpage{13}
+    \subitem {master\discretionary {-}{}{}Popover\discretionary {-}{}{}Controller}, 
+		\hyperpage{13}
+  \item {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Manager}, 
+		\hyperpage{13}
+    \subitem {create\discretionary {-}{}{}Copy\discretionary {-}{}{}For\discretionary {-}{}{}File\discretionary {-}{}{}:}, 
+		\hyperpage{14}
+    \subitem {create\discretionary {-}{}{}Pdf\discretionary {-}{}{}For\discretionary {-}{}{}File\discretionary {-}{}{}At\discretionary {-}{}{}Path\discretionary {-}{}{}:}, 
+		\hyperpage{14}
+    \subitem {create\discretionary {-}{}{}Square\discretionary {-}{}{}Annotation\discretionary {-}{}{}On\discretionary {-}{}{}Page\discretionary {-}{}{}:doc\discretionary {-}{}{}:rect\discretionary {-}{}{}:border\discretionary {-}{}{}Width\discretionary {-}{}{}:title\discretionary {-}{}{}:b\discretionary {-}{}{}Open\discretionary {-}{}{}:color\discretionary {-}{}{}:}, 
+		\hyperpage{15}
+    \subitem {delete\discretionary {-}{}{}Annotation\discretionary {-}{}{}With\discretionary {-}{}{}Index\discretionary {-}{}{}:on\discretionary {-}{}{}Page\discretionary {-}{}{}:of\discretionary {-}{}{}Doc\discretionary {-}{}{}:}, 
+		\hyperpage{15}
+    \subitem {get\discretionary {-}{}{}Annotations\discretionary {-}{}{}Array\discretionary {-}{}{}For\discretionary {-}{}{}Page\discretionary {-}{}{}:}, 
+		\hyperpage{15}
+    \subitem {get\discretionary {-}{}{}Pdf\discretionary {-}{}{}Paths\discretionary {-}{}{}Of\discretionary {-}{}{}Array\discretionary {-}{}{}:}, 
+		\hyperpage{15}
+    \subitem {write\discretionary {-}{}{}Pdf\discretionary {-}{}{}:to\discretionary {-}{}{}Path\discretionary {-}{}{}:with\discretionary {-}{}{}Temporary\discretionary {-}{}{}File\discretionary {-}{}{}Path\discretionary {-}{}{}:}, 
+		\hyperpage{16}
+  \item {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Master\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{16}
+    \subitem {contents\discretionary {-}{}{}Changed\discretionary {-}{}{}:}, 
+		\hyperpage{17}
+    \subitem {detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{17}
+    \subitem {helper}, \hyperpage{17}
+    \subitem {paths\discretionary {-}{}{}Array}, \hyperpage{17}
+  \item {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}New\discretionary {-}{}{}Annotation\discretionary {-}{}{}V\discretionary {-}{}{}C}, 
+		\hyperpage{17}
+    \subitem {annot\discretionary {-}{}{}Color}, \hyperpage{18}
+    \subitem {annot\discretionary {-}{}{}Type}, \hyperpage{18}
+    \subitem {border\discretionary {-}{}{}Switch}, \hyperpage{19}
+    \subitem {border\discretionary {-}{}{}Switch\discretionary {-}{}{}Cell}, 
+		\hyperpage{19}
+    \subitem {border\discretionary {-}{}{}Switch\discretionary {-}{}{}Changed\discretionary {-}{}{}:}, 
+		\hyperpage{18}
+    \subitem {border\discretionary {-}{}{}Width}, \hyperpage{19}
+    \subitem {border\discretionary {-}{}{}Width\discretionary {-}{}{}Cell}, 
+		\hyperpage{19}
+    \subitem {border\discretionary {-}{}{}Width\discretionary {-}{}{}Text\discretionary {-}{}{}Field}, 
+		\hyperpage{19}
+    \subitem {color\discretionary {-}{}{}Cell}, \hyperpage{19}
+    \subitem {color\discretionary {-}{}{}Selected\discretionary {-}{}{}:}, 
+		\hyperpage{18}
+    \subitem {init\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}Elements}, 
+		\hyperpage{18}
+    \subitem {segmented\discretionary {-}{}{}Control}, \hyperpage{19}
+    \subitem {selected\discretionary {-}{}{}Segment\discretionary {-}{}{}Changed\discretionary {-}{}{}:}, 
+		\hyperpage{18}
+    \subitem {with\discretionary {-}{}{}Border}, \hyperpage{19}
+  \item {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}New\discretionary {-}{}{}Annotation\discretionary {-}{}{}V\discretionary {-}{}{}C.\discretionary {-}{}{}m}
+    \subitem {M\discretionary {-}{}{}A\discretionary {-}{}{}X\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Border\discretionary {-}{}{}Width}, 
+		\hyperpage{30}
+    \subitem {M\discretionary {-}{}{}I\discretionary {-}{}{}N\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Border\discretionary {-}{}{}Width}, 
+		\hyperpage{30}
+  \item {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View}, 
+		\hyperpage{19}
+    \subitem {annot\discretionary {-}{}{}Text\discretionary {-}{}{}View}, 
+		\hyperpage{21}
+    \subitem {calculate\discretionary {-}{}{}Touch\discretionary {-}{}{}Zones}, 
+		\hyperpage{20}
+    \subitem {current\discretionary {-}{}{}Page}, \hyperpage{21}
+    \subitem {delegate}, \hyperpage{21}
+    \subitem {detail\discretionary {-}{}{}V\discretionary {-}{}{}C}, 
+		\hyperpage{21}
+    \subitem {display\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Page\discretionary {-}{}{}Number\discretionary {-}{}{}:}, 
+		\hyperpage{20}
+    \subitem {frame\discretionary {-}{}{}In\discretionary {-}{}{}Pdf\discretionary {-}{}{}For\discretionary {-}{}{}View\discretionary {-}{}{}:}, 
+		\hyperpage{20}
+    \subitem {location\discretionary {-}{}{}In\discretionary {-}{}{}Pdf\discretionary {-}{}{}View\discretionary {-}{}{}:}, 
+		\hyperpage{21}
+    \subitem {my\discretionary {-}{}{}Document\discretionary {-}{}{}Ref}, 
+		\hyperpage{21}
+    \subitem {n\discretionary {-}{}{}Annot\discretionary {-}{}{}Start\discretionary {-}{}{}Point}, 
+		\hyperpage{21}
+    \subitem {next\discretionary {-}{}{}Page\discretionary {-}{}{}Rect}, 
+		\hyperpage{21}
+    \subitem {pdf\discretionary {-}{}{}Page}, \hyperpage{22}
+    \subitem {pdf\discretionary {-}{}{}Path}, \hyperpage{22}
+    \subitem {pdf\discretionary {-}{}{}Scale}, \hyperpage{22}
+    \subitem {point}, \hyperpage{21}
+    \subitem {prev\discretionary {-}{}{}Page\discretionary {-}{}{}Rect}, 
+		\hyperpage{22}
+    \subitem {reload\discretionary {-}{}{}Pdf}, \hyperpage{21}
+  \item {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View.\discretionary {-}{}{}m}
+    \subitem {T\discretionary {-}{}{}O\discretionary {-}{}{}U\discretionary {-}{}{}C\discretionary {-}{}{}H\discretionary {-}{}{}W\discretionary {-}{}{}I\discretionary {-}{}{}D\discretionary {-}{}{}T\discretionary {-}{}{}H}, 
+		\hyperpage{31}
+  \item {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View\discretionary {-}{}{}Delegate-\/p}
+    \subitem {did\discretionary {-}{}{}Touch\discretionary {-}{}{}Next\discretionary {-}{}{}Page}, 
+		\hyperpage{23}
+    \subitem {did\discretionary {-}{}{}Touch\discretionary {-}{}{}Prev\discretionary {-}{}{}Page}, 
+		\hyperpage{23}
+  \item {annot\discretionary {-}{}{}Color}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotation}, 
+		\hyperpage{8}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{12}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}New\discretionary {-}{}{}Annotation\discretionary {-}{}{}V\discretionary {-}{}{}C}, 
+		\hyperpage{18}
+  \item {annot\discretionary {-}{}{}Text\discretionary {-}{}{}View}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View}, 
+		\hyperpage{21}
+  \item {annot\discretionary {-}{}{}Type}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{12}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}New\discretionary {-}{}{}Annotation\discretionary {-}{}{}V\discretionary {-}{}{}C}, 
+		\hyperpage{18}
+  \item {Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotation.\discretionary {-}{}{}h}, 
+		\hyperpage{27}
+  \item {Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotation.\discretionary {-}{}{}m}, 
+		\hyperpage{27}
+  \item {Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotations\discretionary {-}{}{}V\discretionary {-}{}{}C.\discretionary {-}{}{}h}, 
+		\hyperpage{28}
+  \item {Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotations\discretionary {-}{}{}V\discretionary {-}{}{}C.\discretionary {-}{}{}m}, 
+		\hyperpage{28}
+  \item {Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}App\discretionary {-}{}{}Delegate.\discretionary {-}{}{}h}, 
+		\hyperpage{28}
+  \item {Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}App\discretionary {-}{}{}Delegate.\discretionary {-}{}{}m}, 
+		\hyperpage{28}
+  \item {Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller.\discretionary {-}{}{}h}, 
+		\hyperpage{28}
+  \item {Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller.\discretionary {-}{}{}mm}, 
+		\hyperpage{29}
+  \item {Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Manager.\discretionary {-}{}{}h}, 
+		\hyperpage{29}
+  \item {Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Manager.\discretionary {-}{}{}mm}, 
+		\hyperpage{29}
+  \item {Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Master\discretionary {-}{}{}View\discretionary {-}{}{}Controller.\discretionary {-}{}{}h}, 
+		\hyperpage{29}
+  \item {Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Master\discretionary {-}{}{}View\discretionary {-}{}{}Controller.\discretionary {-}{}{}m}, 
+		\hyperpage{29}
+  \item {Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}New\discretionary {-}{}{}Annotation\discretionary {-}{}{}V\discretionary {-}{}{}C.\discretionary {-}{}{}h}, 
+		\hyperpage{30}
+  \item {Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}New\discretionary {-}{}{}Annotation\discretionary {-}{}{}V\discretionary {-}{}{}C.\discretionary {-}{}{}m}, 
+		\hyperpage{30}
+  \item {Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View.\discretionary {-}{}{}h}, 
+		\hyperpage{30}
+  \item {Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View.\discretionary {-}{}{}m}, 
+		\hyperpage{30}
+  \item {Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}Doc\discretionary {-}{}{}Watch\discretionary {-}{}{}Helper.\discretionary {-}{}{}h}, 
+		\hyperpage{31}
+  \item {Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}Doc\discretionary {-}{}{}Watch\discretionary {-}{}{}Helper.\discretionary {-}{}{}m}, 
+		\hyperpage{31}
+  \item {Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Page\discretionary {-}{}{}Renderer.\discretionary {-}{}{}h}, 
+		\hyperpage{31}
+  \item {Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Page\discretionary {-}{}{}Renderer.\discretionary {-}{}{}mm}, 
+		\hyperpage{32}
+  \item {Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}Resizable\discretionary {-}{}{}Text\discretionary {-}{}{}View.\discretionary {-}{}{}h}, 
+		\hyperpage{32}
+  \item {Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}Resizable\discretionary {-}{}{}Text\discretionary {-}{}{}View.\discretionary {-}{}{}m}, 
+		\hyperpage{32}
+  \item {Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/main.\discretionary {-}{}{}m}, 
+		\hyperpage{31}
+  \item {annotation\discretionary {-}{}{}Type}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotation}, 
+		\hyperpage{8}
+  \item {annotation\discretionary {-}{}{}View}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotation}, 
+		\hyperpage{8}
+  \item {annotations}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotations\discretionary {-}{}{}V\discretionary {-}{}{}C}, 
+		\hyperpage{9}
+
+  \indexspace
+
+  \item {border\discretionary {-}{}{}Switch}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}New\discretionary {-}{}{}Annotation\discretionary {-}{}{}V\discretionary {-}{}{}C}, 
+		\hyperpage{19}
+  \item {border\discretionary {-}{}{}Switch\discretionary {-}{}{}Cell}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}New\discretionary {-}{}{}Annotation\discretionary {-}{}{}V\discretionary {-}{}{}C}, 
+		\hyperpage{19}
+  \item {border\discretionary {-}{}{}Switch\discretionary {-}{}{}Changed\discretionary {-}{}{}:}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}New\discretionary {-}{}{}Annotation\discretionary {-}{}{}V\discretionary {-}{}{}C}, 
+		\hyperpage{18}
+  \item {border\discretionary {-}{}{}Width}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotation}, 
+		\hyperpage{8}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{12}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}New\discretionary {-}{}{}Annotation\discretionary {-}{}{}V\discretionary {-}{}{}C}, 
+		\hyperpage{19}
+  \item {border\discretionary {-}{}{}Width\discretionary {-}{}{}Cell}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}New\discretionary {-}{}{}Annotation\discretionary {-}{}{}V\discretionary {-}{}{}C}, 
+		\hyperpage{19}
+  \item {border\discretionary {-}{}{}Width\discretionary {-}{}{}Text\discretionary {-}{}{}Field}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}New\discretionary {-}{}{}Annotation\discretionary {-}{}{}V\discretionary {-}{}{}C}, 
+		\hyperpage{19}
+
+  \indexspace
+
+  \item {calculate\discretionary {-}{}{}Touch\discretionary {-}{}{}Zones}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View}, 
+		\hyperpage{20}
+  \item {color\discretionary {-}{}{}Cell}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}New\discretionary {-}{}{}Annotation\discretionary {-}{}{}V\discretionary {-}{}{}C}, 
+		\hyperpage{19}
+  \item {color\discretionary {-}{}{}Selected\discretionary {-}{}{}:}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}New\discretionary {-}{}{}Annotation\discretionary {-}{}{}V\discretionary {-}{}{}C}, 
+		\hyperpage{18}
+  \item {configure\discretionary {-}{}{}View}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller()}, 
+		\hyperpage{13}
+  \item {contents\discretionary {-}{}{}Changed\discretionary {-}{}{}:}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Master\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{17}
+  \item {create\discretionary {-}{}{}Copy\discretionary {-}{}{}For\discretionary {-}{}{}File\discretionary {-}{}{}:}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Manager}, 
+		\hyperpage{14}
+  \item {create\discretionary {-}{}{}Free\discretionary {-}{}{}Text\discretionary {-}{}{}Annotation\discretionary {-}{}{}On\discretionary {-}{}{}Page\discretionary {-}{}{}:doc\discretionary {-}{}{}:rect\discretionary {-}{}{}:border\discretionary {-}{}{}Width\discretionary {-}{}{}:title\discretionary {-}{}{}:content\discretionary {-}{}{}:b\discretionary {-}{}{}Open\discretionary {-}{}{}:color\discretionary {-}{}{}:}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Manager}, 
+		\hyperpage{14}
+  \item {create\discretionary {-}{}{}Pdf\discretionary {-}{}{}For\discretionary {-}{}{}File\discretionary {-}{}{}At\discretionary {-}{}{}Path\discretionary {-}{}{}:}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Manager}, 
+		\hyperpage{14}
+  \item {create\discretionary {-}{}{}Square\discretionary {-}{}{}Annotation\discretionary {-}{}{}On\discretionary {-}{}{}Page\discretionary {-}{}{}:doc\discretionary {-}{}{}:rect\discretionary {-}{}{}:border\discretionary {-}{}{}Width\discretionary {-}{}{}:title\discretionary {-}{}{}:b\discretionary {-}{}{}Open\discretionary {-}{}{}:color\discretionary {-}{}{}:}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Manager}, 
+		\hyperpage{15}
+  \item {current\discretionary {-}{}{}Page}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{12}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View}, 
+		\hyperpage{21}
+
+  \indexspace
+
+  \item {delegate}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View}, 
+		\hyperpage{21}
+  \item {delete\discretionary {-}{}{}Annotation\discretionary {-}{}{}With\discretionary {-}{}{}Index\discretionary {-}{}{}:on\discretionary {-}{}{}Page\discretionary {-}{}{}:of\discretionary {-}{}{}Doc\discretionary {-}{}{}:}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Manager}, 
+		\hyperpage{15}
+  \item {detail\discretionary {-}{}{}Item}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{12}
+  \item {detail\discretionary {-}{}{}V\discretionary {-}{}{}C}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View}, 
+		\hyperpage{21}
+  \item {detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Master\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{17}
+  \item {did\discretionary {-}{}{}Touch\discretionary {-}{}{}Next\discretionary {-}{}{}Page}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View\discretionary {-}{}{}Delegate-\/p}, 
+		\hyperpage{23}
+  \item {did\discretionary {-}{}{}Touch\discretionary {-}{}{}Prev\discretionary {-}{}{}Page}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View\discretionary {-}{}{}Delegate-\/p}, 
+		\hyperpage{23}
+  \item {display\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Page\discretionary {-}{}{}Number\discretionary {-}{}{}:}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View}, 
+		\hyperpage{20}
+  \item {doc}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{12}
+  \item {Doc\discretionary {-}{}{}Watch\discretionary {-}{}{}Helper}, 
+		\hyperpage{23}
+    \subitem {kqref}, \hyperpage{23}
+    \subitem {path}, \hyperpage{24}
+    \subitem {rls}, \hyperpage{23}
+    \subitem {watcher\discretionary {-}{}{}For\discretionary {-}{}{}Path\discretionary {-}{}{}:}, 
+		\hyperpage{23}
+  \item {Doc\discretionary {-}{}{}Watch\discretionary {-}{}{}Helper.\discretionary {-}{}{}h}
+    \subitem {k\discretionary {-}{}{}Document\discretionary {-}{}{}Changed}, 
+		\hyperpage{31}
+
+  \indexspace
+
+  \item {font}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotation}, 
+		\hyperpage{8}
+  \item {frame\discretionary {-}{}{}In\discretionary {-}{}{}Pdf\discretionary {-}{}{}For\discretionary {-}{}{}View\discretionary {-}{}{}:}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View}, 
+		\hyperpage{20}
+
+  \indexspace
+
+  \item {get\discretionary {-}{}{}Annotations\discretionary {-}{}{}Array\discretionary {-}{}{}For\discretionary {-}{}{}Page\discretionary {-}{}{}:}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Manager}, 
+		\hyperpage{15}
+  \item {get\discretionary {-}{}{}Doc}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{11}
+  \item {get\discretionary {-}{}{}Pdf\discretionary {-}{}{}Paths\discretionary {-}{}{}Of\discretionary {-}{}{}Array\discretionary {-}{}{}:}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Manager}, 
+		\hyperpage{15}
+
+  \indexspace
+
+  \item {helper}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Master\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{17}
+
+  \indexspace
+
+  \item {init\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}Elements}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}New\discretionary {-}{}{}Annotation\discretionary {-}{}{}V\discretionary {-}{}{}C}, 
+		\hyperpage{18}
+  \item {init\discretionary {-}{}{}With\discretionary {-}{}{}Annotations\discretionary {-}{}{}:}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotations\discretionary {-}{}{}V\discretionary {-}{}{}C}, 
+		\hyperpage{9}
+  \item {init\discretionary {-}{}{}With\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Dictionary\discretionary {-}{}{}:and\discretionary {-}{}{}Type\discretionary {-}{}{}:}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotation}, 
+		\hyperpage{7}
+  \item {initialize\discretionary {-}{}{}New\discretionary {-}{}{}Annots\discretionary {-}{}{}Values}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{11}
+
+  \indexspace
+
+  \item {k\discretionary {-}{}{}Document\discretionary {-}{}{}Changed}
+    \subitem {Doc\discretionary {-}{}{}Watch\discretionary {-}{}{}Helper.\discretionary {-}{}{}h}, 
+		\hyperpage{31}
+  \item {kqref}
+    \subitem {Doc\discretionary {-}{}{}Watch\discretionary {-}{}{}Helper}, 
+		\hyperpage{23}
+
+  \indexspace
+
+  \item {location\discretionary {-}{}{}In\discretionary {-}{}{}Pdf\discretionary {-}{}{}View\discretionary {-}{}{}:}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View}, 
+		\hyperpage{21}
+
+  \indexspace
+
+  \item {M\discretionary {-}{}{}A\discretionary {-}{}{}X\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Border\discretionary {-}{}{}Width}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}New\discretionary {-}{}{}Annotation\discretionary {-}{}{}V\discretionary {-}{}{}C.\discretionary {-}{}{}m}, 
+		\hyperpage{30}
+  \item {M\discretionary {-}{}{}I\discretionary {-}{}{}N\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Border\discretionary {-}{}{}Width}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}New\discretionary {-}{}{}Annotation\discretionary {-}{}{}V\discretionary {-}{}{}C.\discretionary {-}{}{}m}, 
+		\hyperpage{30}
+  \item {main}
+    \subitem {main.\discretionary {-}{}{}m}, \hyperpage{31}
+  \item {main.\discretionary {-}{}{}m}
+    \subitem {main}, \hyperpage{31}
+  \item {master\discretionary {-}{}{}Popover\discretionary {-}{}{}Controller}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller()}, 
+		\hyperpage{13}
+  \item {max\discretionary {-}{}{}Pages}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{12}
+  \item {my\discretionary {-}{}{}Document\discretionary {-}{}{}Ref}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{12}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View}, 
+		\hyperpage{21}
+
+  \indexspace
+
+  \item {n\discretionary {-}{}{}Annot\discretionary {-}{}{}Start\discretionary {-}{}{}Point}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View}, 
+		\hyperpage{21}
+  \item {n\discretionary {-}{}{}Annots\discretionary {-}{}{}Popover}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{12}
+  \item {next\discretionary {-}{}{}Page\discretionary {-}{}{}Rect}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View}, 
+		\hyperpage{21}
+
+  \indexspace
+
+  \item {P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Page\discretionary {-}{}{}Renderer}, 
+		\hyperpage{24}
+    \subitem {render\discretionary {-}{}{}Annotations\discretionary {-}{}{}For\discretionary {-}{}{}Page\discretionary {-}{}{}:in\discretionary {-}{}{}Context\discretionary {-}{}{}:}, 
+		\hyperpage{24}
+    \subitem {render\discretionary {-}{}{}Page\discretionary {-}{}{}:in\discretionary {-}{}{}Context\discretionary {-}{}{}:at\discretionary {-}{}{}Point\discretionary {-}{}{}:with\discretionary {-}{}{}Zoom\discretionary {-}{}{}:}, 
+		\hyperpage{24}
+  \item {path}
+    \subitem {Doc\discretionary {-}{}{}Watch\discretionary {-}{}{}Helper}, 
+		\hyperpage{24}
+  \item {paths\discretionary {-}{}{}Array}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Master\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{17}
+  \item {pdf\discretionary {-}{}{}Name}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{12}
+  \item {pdf\discretionary {-}{}{}Page}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View}, 
+		\hyperpage{22}
+  \item {pdf\discretionary {-}{}{}Path}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{12}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View}, 
+		\hyperpage{22}
+  \item {pdf\discretionary {-}{}{}Scale}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View}, 
+		\hyperpage{22}
+  \item {pdf\discretionary {-}{}{}View}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{12}
+  \item {point}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View}, 
+		\hyperpage{21}
+  \item {prev\discretionary {-}{}{}Page\discretionary {-}{}{}Rect}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View}, 
+		\hyperpage{22}
+
+  \indexspace
+
+  \item {reload\discretionary {-}{}{}Annotations\discretionary {-}{}{}V\discretionary {-}{}{}C}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{11}
+  \item {reload\discretionary {-}{}{}Pdf}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View}, 
+		\hyperpage{21}
+  \item {render\discretionary {-}{}{}Annotations\discretionary {-}{}{}For\discretionary {-}{}{}Page\discretionary {-}{}{}:in\discretionary {-}{}{}Context\discretionary {-}{}{}:}
+    \subitem {P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Page\discretionary {-}{}{}Renderer}, 
+		\hyperpage{24}
+  \item {render\discretionary {-}{}{}Page\discretionary {-}{}{}:in\discretionary {-}{}{}Context\discretionary {-}{}{}:at\discretionary {-}{}{}Point\discretionary {-}{}{}:with\discretionary {-}{}{}Zoom\discretionary {-}{}{}:}
+    \subitem {P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Page\discretionary {-}{}{}Renderer}, 
+		\hyperpage{24}
+  \item {Resizable\discretionary {-}{}{}Text\discretionary {-}{}{}View}, 
+		\hyperpage{25}
+  \item {rls}
+    \subitem {Doc\discretionary {-}{}{}Watch\discretionary {-}{}{}Helper}, 
+		\hyperpage{23}
+
+  \indexspace
+
+  \item {segmented\discretionary {-}{}{}Control}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}New\discretionary {-}{}{}Annotation\discretionary {-}{}{}V\discretionary {-}{}{}C}, 
+		\hyperpage{19}
+  \item {selected\discretionary {-}{}{}Segment\discretionary {-}{}{}Changed\discretionary {-}{}{}:}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}New\discretionary {-}{}{}Annotation\discretionary {-}{}{}V\discretionary {-}{}{}C}, 
+		\hyperpage{18}
+  \item {show\discretionary {-}{}{}Annotations\discretionary {-}{}{}V\discretionary {-}{}{}C}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{11}
+  \item {show\discretionary {-}{}{}New\discretionary {-}{}{}Annotations\discretionary {-}{}{}V\discretionary {-}{}{}C\discretionary {-}{}{}:}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{11}
+
+  \indexspace
+
+  \item {T\discretionary {-}{}{}O\discretionary {-}{}{}U\discretionary {-}{}{}C\discretionary {-}{}{}H\discretionary {-}{}{}W\discretionary {-}{}{}I\discretionary {-}{}{}D\discretionary {-}{}{}T\discretionary {-}{}{}H}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View.\discretionary {-}{}{}m}, 
+		\hyperpage{31}
+  \item {temporary\discretionary {-}{}{}File\discretionary {-}{}{}Path}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{13}
+  \item {text\discretionary {-}{}{}Alignment}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotation}, 
+		\hyperpage{8}
+  \item {text\discretionary {-}{}{}Color}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotation}, 
+		\hyperpage{8}
+  \item {text\discretionary {-}{}{}String}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotation}, 
+		\hyperpage{8}
+
+  \indexspace
+
+  \item {update\discretionary {-}{}{}Title}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{11}
+
+  \indexspace
+
+  \item {watcher\discretionary {-}{}{}For\discretionary {-}{}{}Path\discretionary {-}{}{}:}
+    \subitem {Doc\discretionary {-}{}{}Watch\discretionary {-}{}{}Helper}, 
+		\hyperpage{23}
+  \item {window}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}App\discretionary {-}{}{}Delegate}, 
+		\hyperpage{10}
+  \item {with\discretionary {-}{}{}Border}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller}, 
+		\hyperpage{13}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}New\discretionary {-}{}{}Annotation\discretionary {-}{}{}V\discretionary {-}{}{}C}, 
+		\hyperpage{19}
+  \item {write\discretionary {-}{}{}Pdf\discretionary {-}{}{}:to\discretionary {-}{}{}Path\discretionary {-}{}{}:with\discretionary {-}{}{}Temporary\discretionary {-}{}{}File\discretionary {-}{}{}Path\discretionary {-}{}{}:}
+    \subitem {A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Manager}, 
+		\hyperpage{16}
+
+\end{theindex}

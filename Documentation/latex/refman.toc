@@ -1,0 +1,177 @@
+\contentsline {chapter}{\numberline {1}Hierarchical Index}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Class Hierarchy}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Class Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Class List}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}File Index}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}File List}{5}{section.3.1}
+\contentsline {chapter}{\numberline {4}Class Documentation}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotation Class Reference}{7}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Detailed Description}{7}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Method Documentation}{7}{subsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2.1}init\discretionary {-}{}{}With\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Dictionary\discretionary {-}{}{}:and\discretionary {-}{}{}Type\discretionary {-}{}{}:}{8}{subsubsection.4.1.2.1}
+\contentsline {subsection}{\numberline {4.1.3}Property Documentation}{8}{subsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.3.1}annotation\discretionary {-}{}{}Type}{8}{subsubsection.4.1.3.1}
+\contentsline {subsubsection}{\numberline {4.1.3.2}annotation\discretionary {-}{}{}View}{8}{subsubsection.4.1.3.2}
+\contentsline {subsubsection}{\numberline {4.1.3.3}annot\discretionary {-}{}{}Color}{8}{subsubsection.4.1.3.3}
+\contentsline {subsubsection}{\numberline {4.1.3.4}border\discretionary {-}{}{}Width}{8}{subsubsection.4.1.3.4}
+\contentsline {subsubsection}{\numberline {4.1.3.5}font}{8}{subsubsection.4.1.3.5}
+\contentsline {subsubsection}{\numberline {4.1.3.6}text\discretionary {-}{}{}Alignment}{8}{subsubsection.4.1.3.6}
+\contentsline {subsubsection}{\numberline {4.1.3.7}text\discretionary {-}{}{}Color}{8}{subsubsection.4.1.3.7}
+\contentsline {subsubsection}{\numberline {4.1.3.8}text\discretionary {-}{}{}String}{8}{subsubsection.4.1.3.8}
+\contentsline {section}{\numberline {4.2}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotations\discretionary {-}{}{}V\discretionary {-}{}{}C Class Reference}{9}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Detailed Description}{9}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Method Documentation}{9}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}init\discretionary {-}{}{}With\discretionary {-}{}{}Annotations\discretionary {-}{}{}:}{9}{subsubsection.4.2.2.1}
+\contentsline {subsection}{\numberline {4.2.3}Property Documentation}{9}{subsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.3.1}annotations}{9}{subsubsection.4.2.3.1}
+\contentsline {section}{\numberline {4.3}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}App\discretionary {-}{}{}Delegate Class Reference}{10}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Property Documentation}{10}{subsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.1.1}window}{10}{subsubsection.4.3.1.1}
+\contentsline {section}{\numberline {4.4}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller Class Reference}{10}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Detailed Description}{11}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Method Documentation}{11}{subsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.2.1}get\discretionary {-}{}{}Doc}{11}{subsubsection.4.4.2.1}
+\contentsline {subsubsection}{\numberline {4.4.2.2}initialize\discretionary {-}{}{}New\discretionary {-}{}{}Annots\discretionary {-}{}{}Values}{11}{subsubsection.4.4.2.2}
+\contentsline {subsubsection}{\numberline {4.4.2.3}reload\discretionary {-}{}{}Annotations\discretionary {-}{}{}V\discretionary {-}{}{}C}{11}{subsubsection.4.4.2.3}
+\contentsline {subsubsection}{\numberline {4.4.2.4}show\discretionary {-}{}{}Annotations\discretionary {-}{}{}V\discretionary {-}{}{}C}{11}{subsubsection.4.4.2.4}
+\contentsline {subsubsection}{\numberline {4.4.2.5}show\discretionary {-}{}{}New\discretionary {-}{}{}Annotations\discretionary {-}{}{}V\discretionary {-}{}{}C\discretionary {-}{}{}:}{11}{subsubsection.4.4.2.5}
+\contentsline {subsubsection}{\numberline {4.4.2.6}update\discretionary {-}{}{}Title}{11}{subsubsection.4.4.2.6}
+\contentsline {subsection}{\numberline {4.4.3}Member Data Documentation}{12}{subsection.4.4.3}
+\contentsline {subsubsection}{\numberline {4.4.3.1}doc}{12}{subsubsection.4.4.3.1}
+\contentsline {subsubsection}{\numberline {4.4.3.2}pdf\discretionary {-}{}{}Path}{12}{subsubsection.4.4.3.2}
+\contentsline {subsection}{\numberline {4.4.4}Property Documentation}{12}{subsection.4.4.4}
+\contentsline {subsubsection}{\numberline {4.4.4.1}annot\discretionary {-}{}{}Color}{12}{subsubsection.4.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.4.2}annot\discretionary {-}{}{}Type}{12}{subsubsection.4.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.4.3}border\discretionary {-}{}{}Width}{12}{subsubsection.4.4.4.3}
+\contentsline {subsubsection}{\numberline {4.4.4.4}current\discretionary {-}{}{}Page}{12}{subsubsection.4.4.4.4}
+\contentsline {subsubsection}{\numberline {4.4.4.5}detail\discretionary {-}{}{}Item}{12}{subsubsection.4.4.4.5}
+\contentsline {subsubsection}{\numberline {4.4.4.6}max\discretionary {-}{}{}Pages}{12}{subsubsection.4.4.4.6}
+\contentsline {subsubsection}{\numberline {4.4.4.7}my\discretionary {-}{}{}Document\discretionary {-}{}{}Ref}{12}{subsubsection.4.4.4.7}
+\contentsline {subsubsection}{\numberline {4.4.4.8}n\discretionary {-}{}{}Annots\discretionary {-}{}{}Popover}{12}{subsubsection.4.4.4.8}
+\contentsline {subsubsection}{\numberline {4.4.4.9}pdf\discretionary {-}{}{}Name}{12}{subsubsection.4.4.4.9}
+\contentsline {subsubsection}{\numberline {4.4.4.10}pdf\discretionary {-}{}{}View}{13}{subsubsection.4.4.4.10}
+\contentsline {subsubsection}{\numberline {4.4.4.11}temporary\discretionary {-}{}{}File\discretionary {-}{}{}Path}{13}{subsubsection.4.4.4.11}
+\contentsline {subsubsection}{\numberline {4.4.4.12}with\discretionary {-}{}{}Border}{13}{subsubsection.4.4.4.12}
+\contentsline {section}{\numberline {4.5}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller() Category Reference}{13}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Method Documentation}{13}{subsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.1.1}configure\discretionary {-}{}{}View}{13}{subsubsection.4.5.1.1}
+\contentsline {subsection}{\numberline {4.5.2}Property Documentation}{13}{subsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.5.2.1}master\discretionary {-}{}{}Popover\discretionary {-}{}{}Controller}{13}{subsubsection.4.5.2.1}
+\contentsline {section}{\numberline {4.6}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Manager Class Reference}{13}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Detailed Description}{14}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Method Documentation}{14}{subsection.4.6.2}
+\contentsline {subsubsection}{\numberline {4.6.2.1}create\discretionary {-}{}{}Copy\discretionary {-}{}{}For\discretionary {-}{}{}File\discretionary {-}{}{}:}{14}{subsubsection.4.6.2.1}
+\contentsline {subsubsection}{\numberline {4.6.2.2}create\discretionary {-}{}{}Free\discretionary {-}{}{}Text\discretionary {-}{}{}Annotation\discretionary {-}{}{}On\discretionary {-}{}{}Page\discretionary {-}{}{}:doc\discretionary {-}{}{}:rect\discretionary {-}{}{}:border\discretionary {-}{}{}Width\discretionary {-}{}{}:title\discretionary {-}{}{}:content\discretionary {-}{}{}:b\discretionary {-}{}{}Open\discretionary {-}{}{}:color\discretionary {-}{}{}:}{14}{subsubsection.4.6.2.2}
+\contentsline {subsubsection}{\numberline {4.6.2.3}create\discretionary {-}{}{}Pdf\discretionary {-}{}{}For\discretionary {-}{}{}File\discretionary {-}{}{}At\discretionary {-}{}{}Path\discretionary {-}{}{}:}{14}{subsubsection.4.6.2.3}
+\contentsline {subsubsection}{\numberline {4.6.2.4}create\discretionary {-}{}{}Square\discretionary {-}{}{}Annotation\discretionary {-}{}{}On\discretionary {-}{}{}Page\discretionary {-}{}{}:doc\discretionary {-}{}{}:rect\discretionary {-}{}{}:border\discretionary {-}{}{}Width\discretionary {-}{}{}:title\discretionary {-}{}{}:b\discretionary {-}{}{}Open\discretionary {-}{}{}:color\discretionary {-}{}{}:}{15}{subsubsection.4.6.2.4}
+\contentsline {subsubsection}{\numberline {4.6.2.5}delete\discretionary {-}{}{}Annotation\discretionary {-}{}{}With\discretionary {-}{}{}Index\discretionary {-}{}{}:on\discretionary {-}{}{}Page\discretionary {-}{}{}:of\discretionary {-}{}{}Doc\discretionary {-}{}{}:}{15}{subsubsection.4.6.2.5}
+\contentsline {subsubsection}{\numberline {4.6.2.6}get\discretionary {-}{}{}Annotations\discretionary {-}{}{}Array\discretionary {-}{}{}For\discretionary {-}{}{}Page\discretionary {-}{}{}:}{15}{subsubsection.4.6.2.6}
+\contentsline {subsubsection}{\numberline {4.6.2.7}get\discretionary {-}{}{}Pdf\discretionary {-}{}{}Paths\discretionary {-}{}{}Of\discretionary {-}{}{}Array\discretionary {-}{}{}:}{15}{subsubsection.4.6.2.7}
+\contentsline {subsubsection}{\numberline {4.6.2.8}write\discretionary {-}{}{}Pdf\discretionary {-}{}{}:to\discretionary {-}{}{}Path\discretionary {-}{}{}:with\discretionary {-}{}{}Temporary\discretionary {-}{}{}File\discretionary {-}{}{}Path\discretionary {-}{}{}:}{16}{subsubsection.4.6.2.8}
+\contentsline {section}{\numberline {4.7}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Master\discretionary {-}{}{}View\discretionary {-}{}{}Controller Class Reference}{16}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Detailed Description}{16}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Method Documentation}{17}{subsection.4.7.2}
+\contentsline {subsubsection}{\numberline {4.7.2.1}contents\discretionary {-}{}{}Changed\discretionary {-}{}{}:}{17}{subsubsection.4.7.2.1}
+\contentsline {subsection}{\numberline {4.7.3}Property Documentation}{17}{subsection.4.7.3}
+\contentsline {subsubsection}{\numberline {4.7.3.1}detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller}{17}{subsubsection.4.7.3.1}
+\contentsline {subsubsection}{\numberline {4.7.3.2}helper}{17}{subsubsection.4.7.3.2}
+\contentsline {subsubsection}{\numberline {4.7.3.3}paths\discretionary {-}{}{}Array}{17}{subsubsection.4.7.3.3}
+\contentsline {section}{\numberline {4.8}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}New\discretionary {-}{}{}Annotation\discretionary {-}{}{}V\discretionary {-}{}{}C Class Reference}{17}{section.4.8}
+\contentsline {subsection}{\numberline {4.8.1}Detailed Description}{18}{subsection.4.8.1}
+\contentsline {subsection}{\numberline {4.8.2}Method Documentation}{18}{subsection.4.8.2}
+\contentsline {subsubsection}{\numberline {4.8.2.1}border\discretionary {-}{}{}Switch\discretionary {-}{}{}Changed\discretionary {-}{}{}:}{18}{subsubsection.4.8.2.1}
+\contentsline {subsubsection}{\numberline {4.8.2.2}color\discretionary {-}{}{}Selected\discretionary {-}{}{}:}{18}{subsubsection.4.8.2.2}
+\contentsline {subsubsection}{\numberline {4.8.2.3}init\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}Elements}{18}{subsubsection.4.8.2.3}
+\contentsline {subsubsection}{\numberline {4.8.2.4}selected\discretionary {-}{}{}Segment\discretionary {-}{}{}Changed\discretionary {-}{}{}:}{18}{subsubsection.4.8.2.4}
+\contentsline {subsection}{\numberline {4.8.3}Property Documentation}{18}{subsection.4.8.3}
+\contentsline {subsubsection}{\numberline {4.8.3.1}annot\discretionary {-}{}{}Color}{18}{subsubsection.4.8.3.1}
+\contentsline {subsubsection}{\numberline {4.8.3.2}annot\discretionary {-}{}{}Type}{19}{subsubsection.4.8.3.2}
+\contentsline {subsubsection}{\numberline {4.8.3.3}border\discretionary {-}{}{}Switch}{19}{subsubsection.4.8.3.3}
+\contentsline {subsubsection}{\numberline {4.8.3.4}border\discretionary {-}{}{}Switch\discretionary {-}{}{}Cell}{19}{subsubsection.4.8.3.4}
+\contentsline {subsubsection}{\numberline {4.8.3.5}border\discretionary {-}{}{}Width}{19}{subsubsection.4.8.3.5}
+\contentsline {subsubsection}{\numberline {4.8.3.6}border\discretionary {-}{}{}Width\discretionary {-}{}{}Cell}{19}{subsubsection.4.8.3.6}
+\contentsline {subsubsection}{\numberline {4.8.3.7}border\discretionary {-}{}{}Width\discretionary {-}{}{}Text\discretionary {-}{}{}Field}{19}{subsubsection.4.8.3.7}
+\contentsline {subsubsection}{\numberline {4.8.3.8}color\discretionary {-}{}{}Cell}{19}{subsubsection.4.8.3.8}
+\contentsline {subsubsection}{\numberline {4.8.3.9}segmented\discretionary {-}{}{}Control}{19}{subsubsection.4.8.3.9}
+\contentsline {subsubsection}{\numberline {4.8.3.10}with\discretionary {-}{}{}Border}{19}{subsubsection.4.8.3.10}
+\contentsline {section}{\numberline {4.9}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View Class Reference}{19}{section.4.9}
+\contentsline {subsection}{\numberline {4.9.1}Detailed Description}{20}{subsection.4.9.1}
+\contentsline {subsection}{\numberline {4.9.2}Method Documentation}{20}{subsection.4.9.2}
+\contentsline {subsubsection}{\numberline {4.9.2.1}calculate\discretionary {-}{}{}Touch\discretionary {-}{}{}Zones}{20}{subsubsection.4.9.2.1}
+\contentsline {subsubsection}{\numberline {4.9.2.2}display\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Page\discretionary {-}{}{}Number\discretionary {-}{}{}:}{20}{subsubsection.4.9.2.2}
+\contentsline {subsubsection}{\numberline {4.9.2.3}frame\discretionary {-}{}{}In\discretionary {-}{}{}Pdf\discretionary {-}{}{}For\discretionary {-}{}{}View\discretionary {-}{}{}:}{20}{subsubsection.4.9.2.3}
+\contentsline {subsubsection}{\numberline {4.9.2.4}location\discretionary {-}{}{}In\discretionary {-}{}{}Pdf\discretionary {-}{}{}View\discretionary {-}{}{}:}{21}{subsubsection.4.9.2.4}
+\contentsline {subsubsection}{\numberline {4.9.2.5}reload\discretionary {-}{}{}Pdf}{21}{subsubsection.4.9.2.5}
+\contentsline {subsection}{\numberline {4.9.3}Member Data Documentation}{21}{subsection.4.9.3}
+\contentsline {subsubsection}{\numberline {4.9.3.1}annot\discretionary {-}{}{}Text\discretionary {-}{}{}View}{21}{subsubsection.4.9.3.1}
+\contentsline {subsubsection}{\numberline {4.9.3.2}detail\discretionary {-}{}{}V\discretionary {-}{}{}C}{21}{subsubsection.4.9.3.2}
+\contentsline {subsubsection}{\numberline {4.9.3.3}n\discretionary {-}{}{}Annot\discretionary {-}{}{}Start\discretionary {-}{}{}Point}{21}{subsubsection.4.9.3.3}
+\contentsline {subsubsection}{\numberline {4.9.3.4}point}{21}{subsubsection.4.9.3.4}
+\contentsline {subsection}{\numberline {4.9.4}Property Documentation}{21}{subsection.4.9.4}
+\contentsline {subsubsection}{\numberline {4.9.4.1}current\discretionary {-}{}{}Page}{21}{subsubsection.4.9.4.1}
+\contentsline {subsubsection}{\numberline {4.9.4.2}delegate}{21}{subsubsection.4.9.4.2}
+\contentsline {subsubsection}{\numberline {4.9.4.3}my\discretionary {-}{}{}Document\discretionary {-}{}{}Ref}{21}{subsubsection.4.9.4.3}
+\contentsline {subsubsection}{\numberline {4.9.4.4}next\discretionary {-}{}{}Page\discretionary {-}{}{}Rect}{22}{subsubsection.4.9.4.4}
+\contentsline {subsubsection}{\numberline {4.9.4.5}pdf\discretionary {-}{}{}Page}{22}{subsubsection.4.9.4.5}
+\contentsline {subsubsection}{\numberline {4.9.4.6}pdf\discretionary {-}{}{}Path}{22}{subsubsection.4.9.4.6}
+\contentsline {subsubsection}{\numberline {4.9.4.7}pdf\discretionary {-}{}{}Scale}{22}{subsubsection.4.9.4.7}
+\contentsline {subsubsection}{\numberline {4.9.4.8}prev\discretionary {-}{}{}Page\discretionary {-}{}{}Rect}{22}{subsubsection.4.9.4.8}
+\contentsline {section}{\numberline {4.10}$<$A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View\discretionary {-}{}{}Delegate$>$ Protocol Reference}{22}{section.4.10}
+\contentsline {subsection}{\numberline {4.10.1}Detailed Description}{22}{subsection.4.10.1}
+\contentsline {subsection}{\numberline {4.10.2}Method Documentation}{23}{subsection.4.10.2}
+\contentsline {subsubsection}{\numberline {4.10.2.1}did\discretionary {-}{}{}Touch\discretionary {-}{}{}Next\discretionary {-}{}{}Page}{23}{subsubsection.4.10.2.1}
+\contentsline {subsubsection}{\numberline {4.10.2.2}did\discretionary {-}{}{}Touch\discretionary {-}{}{}Prev\discretionary {-}{}{}Page}{23}{subsubsection.4.10.2.2}
+\contentsline {section}{\numberline {4.11}Doc\discretionary {-}{}{}Watch\discretionary {-}{}{}Helper Class Reference}{23}{section.4.11}
+\contentsline {subsection}{\numberline {4.11.1}Detailed Description}{23}{subsection.4.11.1}
+\contentsline {subsection}{\numberline {4.11.2}Method Documentation}{23}{subsection.4.11.2}
+\contentsline {subsubsection}{\numberline {4.11.2.1}watcher\discretionary {-}{}{}For\discretionary {-}{}{}Path\discretionary {-}{}{}:}{23}{subsubsection.4.11.2.1}
+\contentsline {subsection}{\numberline {4.11.3}Member Data Documentation}{23}{subsection.4.11.3}
+\contentsline {subsubsection}{\numberline {4.11.3.1}kqref}{23}{subsubsection.4.11.3.1}
+\contentsline {subsubsection}{\numberline {4.11.3.2}rls}{24}{subsubsection.4.11.3.2}
+\contentsline {subsection}{\numberline {4.11.4}Property Documentation}{24}{subsection.4.11.4}
+\contentsline {subsubsection}{\numberline {4.11.4.1}path}{24}{subsubsection.4.11.4.1}
+\contentsline {section}{\numberline {4.12}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Page\discretionary {-}{}{}Renderer Class Reference}{24}{section.4.12}
+\contentsline {subsection}{\numberline {4.12.1}Detailed Description}{24}{subsection.4.12.1}
+\contentsline {subsection}{\numberline {4.12.2}Method Documentation}{24}{subsection.4.12.2}
+\contentsline {subsubsection}{\numberline {4.12.2.1}render\discretionary {-}{}{}Annotations\discretionary {-}{}{}For\discretionary {-}{}{}Page\discretionary {-}{}{}:in\discretionary {-}{}{}Context\discretionary {-}{}{}:}{24}{subsubsection.4.12.2.1}
+\contentsline {subsubsection}{\numberline {4.12.2.2}render\discretionary {-}{}{}Page\discretionary {-}{}{}:in\discretionary {-}{}{}Context\discretionary {-}{}{}:at\discretionary {-}{}{}Point\discretionary {-}{}{}:with\discretionary {-}{}{}Zoom\discretionary {-}{}{}:}{24}{subsubsection.4.12.2.2}
+\contentsline {section}{\numberline {4.13}Resizable\discretionary {-}{}{}Text\discretionary {-}{}{}View Class Reference}{25}{section.4.13}
+\contentsline {subsection}{\numberline {4.13.1}Detailed Description}{25}{subsection.4.13.1}
+\contentsline {chapter}{\numberline {5}File Documentation}{27}{chapter.5}
+\contentsline {section}{\numberline {5.1}Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotation.h File Reference}{27}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Macro Definition Documentation}{27}{subsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1.1}A\discretionary {-}{}{}N\discretionary {-}{}{}N\discretionary {-}{}{}O\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}F\discretionary {-}{}{}R\discretionary {-}{}{}E\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}T\discretionary {-}{}{}E\discretionary {-}{}{}X\discretionary {-}{}{}T}{27}{subsubsection.5.1.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1.2}A\discretionary {-}{}{}N\discretionary {-}{}{}N\discretionary {-}{}{}O\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}H\discretionary {-}{}{}I\discretionary {-}{}{}G\discretionary {-}{}{}H\discretionary {-}{}{}L\discretionary {-}{}{}I\discretionary {-}{}{}G\discretionary {-}{}{}H\discretionary {-}{}{}T}{27}{subsubsection.5.1.1.2}
+\contentsline {subsubsection}{\numberline {5.1.1.3}A\discretionary {-}{}{}N\discretionary {-}{}{}N\discretionary {-}{}{}O\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}S\discretionary {-}{}{}Q\discretionary {-}{}{}U\discretionary {-}{}{}A\discretionary {-}{}{}R\discretionary {-}{}{}E}{27}{subsubsection.5.1.1.3}
+\contentsline {section}{\numberline {5.2}Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotation.m File Reference}{27}{section.5.2}
+\contentsline {section}{\numberline {5.3}Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotations\discretionary {-}{}{}V\discretionary {-}{}{}C.h File Reference}{28}{section.5.3}
+\contentsline {section}{\numberline {5.4}Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Annotations\discretionary {-}{}{}V\discretionary {-}{}{}C.m File Reference}{28}{section.5.4}
+\contentsline {section}{\numberline {5.5}Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}App\discretionary {-}{}{}Delegate.h File Reference}{28}{section.5.5}
+\contentsline {section}{\numberline {5.6}Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}App\discretionary {-}{}{}Delegate.m File Reference}{28}{section.5.6}
+\contentsline {section}{\numberline {5.7}Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller.h File Reference}{28}{section.5.7}
+\contentsline {section}{\numberline {5.8}Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Detail\discretionary {-}{}{}View\discretionary {-}{}{}Controller.mm File Reference}{29}{section.5.8}
+\contentsline {section}{\numberline {5.9}Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Manager.h File Reference}{29}{section.5.9}
+\contentsline {section}{\numberline {5.10}Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Manager.mm File Reference}{29}{section.5.10}
+\contentsline {section}{\numberline {5.11}Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Master\discretionary {-}{}{}View\discretionary {-}{}{}Controller.h File Reference}{29}{section.5.11}
+\contentsline {section}{\numberline {5.12}Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Master\discretionary {-}{}{}View\discretionary {-}{}{}Controller.m File Reference}{29}{section.5.12}
+\contentsline {section}{\numberline {5.13}Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}New\discretionary {-}{}{}Annotation\discretionary {-}{}{}V\discretionary {-}{}{}C.h File Reference}{30}{section.5.13}
+\contentsline {section}{\numberline {5.14}Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}New\discretionary {-}{}{}Annotation\discretionary {-}{}{}V\discretionary {-}{}{}C.m File Reference}{30}{section.5.14}
+\contentsline {subsection}{\numberline {5.14.1}Macro Definition Documentation}{30}{subsection.5.14.1}
+\contentsline {subsubsection}{\numberline {5.14.1.1}M\discretionary {-}{}{}A\discretionary {-}{}{}X\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Border\discretionary {-}{}{}Width}{30}{subsubsection.5.14.1.1}
+\contentsline {subsubsection}{\numberline {5.14.1.2}M\discretionary {-}{}{}I\discretionary {-}{}{}N\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Border\discretionary {-}{}{}Width}{30}{subsubsection.5.14.1.2}
+\contentsline {section}{\numberline {5.15}Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View.h File Reference}{30}{section.5.15}
+\contentsline {section}{\numberline {5.16}Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}View.m File Reference}{30}{section.5.16}
+\contentsline {subsection}{\numberline {5.16.1}Macro Definition Documentation}{31}{subsection.5.16.1}
+\contentsline {subsubsection}{\numberline {5.16.1.1}T\discretionary {-}{}{}O\discretionary {-}{}{}U\discretionary {-}{}{}C\discretionary {-}{}{}H\discretionary {-}{}{}W\discretionary {-}{}{}I\discretionary {-}{}{}D\discretionary {-}{}{}T\discretionary {-}{}{}H}{31}{subsubsection.5.16.1.1}
+\contentsline {section}{\numberline {5.17}Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}Doc\discretionary {-}{}{}Watch\discretionary {-}{}{}Helper.h File Reference}{31}{section.5.17}
+\contentsline {subsection}{\numberline {5.17.1}Macro Definition Documentation}{31}{subsection.5.17.1}
+\contentsline {subsubsection}{\numberline {5.17.1.1}k\discretionary {-}{}{}Document\discretionary {-}{}{}Changed}{31}{subsubsection.5.17.1.1}
+\contentsline {section}{\numberline {5.18}Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}Doc\discretionary {-}{}{}Watch\discretionary {-}{}{}Helper.m File Reference}{31}{section.5.18}
+\contentsline {section}{\numberline {5.19}Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/main.m File Reference}{31}{section.5.19}
+\contentsline {subsection}{\numberline {5.19.1}Function Documentation}{31}{subsection.5.19.1}
+\contentsline {subsubsection}{\numberline {5.19.1.1}main}{31}{subsubsection.5.19.1.1}
+\contentsline {section}{\numberline {5.20}Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Page\discretionary {-}{}{}Renderer.h File Reference}{31}{section.5.20}
+\contentsline {section}{\numberline {5.21}Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Page\discretionary {-}{}{}Renderer.mm File Reference}{32}{section.5.21}
+\contentsline {section}{\numberline {5.22}Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}Resizable\discretionary {-}{}{}Text\discretionary {-}{}{}View.h File Reference}{32}{section.5.22}
+\contentsline {section}{\numberline {5.23}Annotate\discretionary {-}{}{}P\discretionary {-}{}{}D\discretionary {-}{}{}F/\discretionary {-}{}{}Resizable\discretionary {-}{}{}Text\discretionary {-}{}{}View.m File Reference}{32}{section.5.23}
+\contentsline {part}{Index}{32}{section.5.23}

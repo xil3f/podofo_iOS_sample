@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7003688C15B61F8500A9E739 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 7003688B15B61F8500A9E739 /* fonts */; };
+		7011F44D15EBB3F100042337 /* libexpat_universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7011F44C15EBB3F100042337 /* libexpat_universal.a */; };
+		7011F44F15EBB4BD00042337 /* libz_universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7011F44E15EBB4BD00042337 /* libz_universal.a */; };
+		7011F45115EBB53100042337 /* libjpeg_universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7011F45015EBB53100042337 /* libjpeg_universal.a */; };
+		70137A0E15F6AB6A00EA8731 /* APDFNewAnnotationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 70137A0C15F6AB6A00EA8731 /* APDFNewAnnotationVC.m */; };
+		703E3598159DE39D00DE834E /* APDFAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 703E3597159DE39D00DE834E /* APDFAnnotation.m */; };
+		703E359A159DE40A00DE834E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 703E3599159DE40A00DE834E /* QuartzCore.framework */; };
+		703E35B115A6222800DE834E /* PDFPageRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 703E35B015A6222800DE834E /* PDFPageRenderer.mm */; };
+		703E35B515A6229200DE834E /* ResizableTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 703E35B415A6229200DE834E /* ResizableTextView.m */; };
+		703E35B815A6240A00DE834E /* APDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 703E35B715A6240A00DE834E /* APDFView.m */; };
+		70813D6015B8443B0021FBE7 /* iPhoneIcon_Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 70813D5F15B8443B0021FBE7 /* iPhoneIcon_Small.png */; };
+		70813D6215B844590021FBE7 /* iPhoneIcon_Big.png in Resources */ = {isa = PBXBuildFile; fileRef = 70813D6115B844590021FBE7 /* iPhoneIcon_Big.png */; };
+		70877A0F15F90AEC004D1787 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 70877A0E15F90AEC004D1787 /* index.html */; };
+		709EE559159489C1003208D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709EE558159489C1003208D2 /* UIKit.framework */; };
+		709EE55B159489C1003208D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709EE55A159489C1003208D2 /* Foundation.framework */; };
+		709EE55D159489C1003208D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709EE55C159489C1003208D2 /* CoreGraphics.framework */; };
+		709EE563159489C1003208D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 709EE561159489C1003208D2 /* InfoPlist.strings */; };
+		709EE565159489C1003208D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 709EE564159489C1003208D2 /* main.m */; };
+		709EE569159489C1003208D2 /* APDFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 709EE568159489C1003208D2 /* APDFAppDelegate.m */; };
+		709EE56C159489C1003208D2 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709EE56A159489C1003208D2 /* MainStoryboard_iPhone.storyboard */; };
+		709EE56F159489C1003208D2 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709EE56D159489C1003208D2 /* MainStoryboard_iPad.storyboard */; };
+		709EE572159489C1003208D2 /* APDFMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 709EE571159489C1003208D2 /* APDFMasterViewController.m */; };
+		709EE575159489C1003208D2 /* APDFDetailViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 709EE574159489C1003208D2 /* APDFDetailViewController.mm */; };
+		70ADE81E15ED68D100BD0A4A /* APDFAnnotationsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ADE81D15ED68D100BD0A4A /* APDFAnnotationsVC.m */; };
+		70ADE82715EFDB7B00BD0A4A /* DocWatchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 70ADE82615EFDB7B00BD0A4A /* DocWatchHelper.m */; };
+		70CEDDD315EBBB6500A3B2A2 /* libFreetype2_universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70CEDDD215EBBB6500A3B2A2 /* libFreetype2_universal.a */; };
+		70CEDDD515EBBB7A00A3B2A2 /* libfreetype_universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70CEDDD415EBBB7A00A3B2A2 /* libfreetype_universal.a */; };
+		70CEDDD715EBBBC400A3B2A2 /* libpodofo_universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70CEDDD615EBBBC400A3B2A2 /* libpodofo_universal.a */; };
+		70CEDDD915EBBC1D00A3B2A2 /* libfontconfig_universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70CEDDD815EBBC1D00A3B2A2 /* libfontconfig_universal.a */; };
+		70CEDDDB15EBBD0000A3B2A2 /* libiconv.2.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 70CEDDDA15EBBD0000A3B2A2 /* libiconv.2.4.0.dylib */; };
+		70D87DFC15B9665B004D95F6 /* APDFManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 70D87DFB15B9665B004D95F6 /* APDFManager.mm */; };
+		70F299C71612F1CF006A77E5 /* SimulatorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F299C61612F1CF006A77E5 /* SimulatorHandling.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7003688B15B61F8500A9E739 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		7011F44C15EBB3F100042337 /* libexpat_universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libexpat_universal.a; path = libraries/libexpat_universal.a; sourceTree = "<group>"; };
+		7011F44E15EBB4BD00042337 /* libz_universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libz_universal.a; path = libraries/libz_universal.a; sourceTree = "<group>"; };
+		7011F45015EBB53100042337 /* libjpeg_universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg_universal.a; path = libraries/libjpeg_universal.a; sourceTree = "<group>"; };
+		70137A0B15F6AB6A00EA8731 /* APDFNewAnnotationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APDFNewAnnotationVC.h; sourceTree = "<group>"; };
+		70137A0C15F6AB6A00EA8731 /* APDFNewAnnotationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APDFNewAnnotationVC.m; sourceTree = "<group>"; };
+		703E3596159DE39D00DE834E /* APDFAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APDFAnnotation.h; sourceTree = "<group>"; };
+		703E3597159DE39D00DE834E /* APDFAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APDFAnnotation.m; sourceTree = "<group>"; };
+		703E3599159DE40A00DE834E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		703E35AF15A6222800DE834E /* PDFPageRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFPageRenderer.h; sourceTree = "<group>"; };
+		703E35B015A6222800DE834E /* PDFPageRenderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PDFPageRenderer.mm; sourceTree = "<group>"; };
+		703E35B315A6229200DE834E /* ResizableTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResizableTextView.h; sourceTree = "<group>"; };
+		703E35B415A6229200DE834E /* ResizableTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResizableTextView.m; sourceTree = "<group>"; };
+		703E35B615A6240A00DE834E /* APDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APDFView.h; sourceTree = "<group>"; };
+		703E35B715A6240A00DE834E /* APDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APDFView.m; sourceTree = "<group>"; };
+		70813D5F15B8443B0021FBE7 /* iPhoneIcon_Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPhoneIcon_Small.png; path = ../iPhoneIcon_Small.png; sourceTree = "<group>"; };
+		70813D6115B844590021FBE7 /* iPhoneIcon_Big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPhoneIcon_Big.png; path = ../iPhoneIcon_Big.png; sourceTree = "<group>"; };
+		70877A0E15F90AEC004D1787 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html.documentation; name = index.html; path = /Users/kopp/Documents/Xcode/AnnotatePDF/Documentation/html/index.html; sourceTree = "<absolute>"; };
+		709EE554159489C1003208D2 /* AnnotatePDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnnotatePDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		709EE558159489C1003208D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		709EE55A159489C1003208D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		709EE55C159489C1003208D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		709EE560159489C1003208D2 /* AnnotatePDF-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnnotatePDF-Info.plist"; sourceTree = "<group>"; };
+		709EE562159489C1003208D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		709EE564159489C1003208D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		709EE566159489C1003208D2 /* AnnotatePDF-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnnotatePDF-Prefix.pch"; sourceTree = "<group>"; };
+		709EE567159489C1003208D2 /* APDFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APDFAppDelegate.h; sourceTree = "<group>"; };
+		709EE568159489C1003208D2 /* APDFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APDFAppDelegate.m; sourceTree = "<group>"; };
+		709EE56B159489C1003208D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		709EE56E159489C1003208D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		709EE570159489C1003208D2 /* APDFMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APDFMasterViewController.h; sourceTree = "<group>"; };
+		709EE571159489C1003208D2 /* APDFMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APDFMasterViewController.m; sourceTree = "<group>"; };
+		709EE573159489C1003208D2 /* APDFDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APDFDetailViewController.h; sourceTree = "<group>"; };
+		709EE574159489C1003208D2 /* APDFDetailViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = APDFDetailViewController.mm; sourceTree = "<group>"; };
+		70ADE81C15ED68D100BD0A4A /* APDFAnnotationsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APDFAnnotationsVC.h; sourceTree = "<group>"; };
+		70ADE81D15ED68D100BD0A4A /* APDFAnnotationsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APDFAnnotationsVC.m; sourceTree = "<group>"; };
+		70ADE82515EFDB7B00BD0A4A /* DocWatchHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocWatchHelper.h; sourceTree = "<group>"; };
+		70ADE82615EFDB7B00BD0A4A /* DocWatchHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocWatchHelper.m; sourceTree = "<group>"; };
+		70CEDDD215EBBB6500A3B2A2 /* libFreetype2_universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFreetype2_universal.a; path = libraries/libFreetype2_universal.a; sourceTree = "<group>"; };
+		70CEDDD415EBBB7A00A3B2A2 /* libfreetype_universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype_universal.a; path = libraries/libfreetype_universal.a; sourceTree = "<group>"; };
+		70CEDDD615EBBBC400A3B2A2 /* libpodofo_universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpodofo_universal.a; path = libraries/libpodofo_universal.a; sourceTree = "<group>"; };
+		70CEDDD815EBBC1D00A3B2A2 /* libfontconfig_universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfontconfig_universal.a; path = libraries/libfontconfig_universal.a; sourceTree = "<group>"; };
+		70CEDDDA15EBBD0000A3B2A2 /* libiconv.2.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.4.0.dylib; path = usr/lib/libiconv.2.4.0.dylib; sourceTree = SDKROOT; };
+		70D87DFA15B9665B004D95F6 /* APDFManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = APDFManager.h; sourceTree = "<group>"; };
+		70D87DFB15B9665B004D95F6 /* APDFManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = APDFManager.mm; sourceTree = "<group>"; };
+		70F299C61612F1CF006A77E5 /* SimulatorHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimulatorHandling.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		709EE551159489C1003208D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CEDDDB15EBBD0000A3B2A2 /* libiconv.2.4.0.dylib in Frameworks */,
+				703E359A159DE40A00DE834E /* QuartzCore.framework in Frameworks */,
+				709EE559159489C1003208D2 /* UIKit.framework in Frameworks */,
+				709EE55B159489C1003208D2 /* Foundation.framework in Frameworks */,
+				709EE55D159489C1003208D2 /* CoreGraphics.framework in Frameworks */,
+				7011F44D15EBB3F100042337 /* libexpat_universal.a in Frameworks */,
+				7011F44F15EBB4BD00042337 /* libz_universal.a in Frameworks */,
+				7011F45115EBB53100042337 /* libjpeg_universal.a in Frameworks */,
+				70CEDDD315EBBB6500A3B2A2 /* libFreetype2_universal.a in Frameworks */,
+				70CEDDD515EBBB7A00A3B2A2 /* libfreetype_universal.a in Frameworks */,
+				70CEDDD715EBBBC400A3B2A2 /* libpodofo_universal.a in Frameworks */,
+				70CEDDD915EBBC1D00A3B2A2 /* libfontconfig_universal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70137A1015F7BD2E00EA8731 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				709EE56A159489C1003208D2 /* MainStoryboard_iPhone.storyboard */,
+				709EE56D159489C1003208D2 /* MainStoryboard_iPad.storyboard */,
+			);
+			name = UserInterface;
+			sourceTree = "<group>";
+		};
+		703E358E159DE2FE00DE834E /* Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				703E35AF15A6222800DE834E /* PDFPageRenderer.h */,
+				703E35B015A6222800DE834E /* PDFPageRenderer.mm */,
+				703E3596159DE39D00DE834E /* APDFAnnotation.h */,
+				703E3597159DE39D00DE834E /* APDFAnnotation.m */,
+			);
+			name = Rendering;
+			sourceTree = "<group>";
+		};
+		703E35B215A6227500DE834E /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				703E35B315A6229200DE834E /* ResizableTextView.h */,
+				703E35B415A6229200DE834E /* ResizableTextView.m */,
+				703E35B615A6240A00DE834E /* APDFView.h */,
+				703E35B715A6240A00DE834E /* APDFView.m */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		703E35BB15A62A4700DE834E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				70813D6115B844590021FBE7 /* iPhoneIcon_Big.png */,
+				70813D5F15B8443B0021FBE7 /* iPhoneIcon_Small.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7071893015A769FF00B2CE9B /* FileHandling */ = {
+			isa = PBXGroup;
+			children = (
+				70D87DFA15B9665B004D95F6 /* APDFManager.h */,
+				70D87DFB15B9665B004D95F6 /* APDFManager.mm */,
+				70ADE82515EFDB7B00BD0A4A /* DocWatchHelper.h */,
+				70ADE82615EFDB7B00BD0A4A /* DocWatchHelper.m */,
+			);
+			name = FileHandling;
+			sourceTree = "<group>";
+		};
+		708778EE15F90A7F004D1787 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				70877A0E15F90AEC004D1787 /* index.html */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		709EE549159489C0003208D2 = {
+			isa = PBXGroup;
+			children = (
+				708778EE15F90A7F004D1787 /* Documentation */,
+				7003688B15B61F8500A9E739 /* fonts */,
+				709EE55E159489C1003208D2 /* AnnotatePDF */,
+				709EE557159489C1003208D2 /* Frameworks */,
+				709EE555159489C1003208D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		709EE555159489C1003208D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				709EE554159489C1003208D2 /* AnnotatePDF.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		709EE557159489C1003208D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70CEDDDC15EBBD4800A3B2A2 /* external libraries */,
+				703E3599159DE40A00DE834E /* QuartzCore.framework */,
+				709EE558159489C1003208D2 /* UIKit.framework */,
+				709EE55A159489C1003208D2 /* Foundation.framework */,
+				709EE55C159489C1003208D2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		709EE55E159489C1003208D2 /* AnnotatePDF */ = {
+			isa = PBXGroup;
+			children = (
+				70ADE81815ED67B300BD0A4A /* ViewControllers */,
+				7071893015A769FF00B2CE9B /* FileHandling */,
+				703E35BB15A62A4700DE834E /* Resources */,
+				703E35B215A6227500DE834E /* CustomViews */,
+				703E358E159DE2FE00DE834E /* Rendering */,
+				709EE567159489C1003208D2 /* APDFAppDelegate.h */,
+				709EE568159489C1003208D2 /* APDFAppDelegate.m */,
+				709EE570159489C1003208D2 /* APDFMasterViewController.h */,
+				709EE571159489C1003208D2 /* APDFMasterViewController.m */,
+				709EE573159489C1003208D2 /* APDFDetailViewController.h */,
+				709EE574159489C1003208D2 /* APDFDetailViewController.mm */,
+				70137A1015F7BD2E00EA8731 /* UserInterface */,
+				709EE55F159489C1003208D2 /* Supporting Files */,
+				70F299C61612F1CF006A77E5 /* SimulatorHandling.m */,
+			);
+			path = AnnotatePDF;
+			sourceTree = "<group>";
+		};
+		709EE55F159489C1003208D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				709EE560159489C1003208D2 /* AnnotatePDF-Info.plist */,
+				709EE561159489C1003208D2 /* InfoPlist.strings */,
+				709EE564159489C1003208D2 /* main.m */,
+				709EE566159489C1003208D2 /* AnnotatePDF-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70ADE81815ED67B300BD0A4A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				70ADE81C15ED68D100BD0A4A /* APDFAnnotationsVC.h */,
+				70ADE81D15ED68D100BD0A4A /* APDFAnnotationsVC.m */,
+				70137A0B15F6AB6A00EA8731 /* APDFNewAnnotationVC.h */,
+				70137A0C15F6AB6A00EA8731 /* APDFNewAnnotationVC.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		70CEDDDC15EBBD4800A3B2A2 /* external libraries */ = {
+			isa = PBXGroup;
+			children = (
+				70CEDDDA15EBBD0000A3B2A2 /* libiconv.2.4.0.dylib */,
+				70CEDDD415EBBB7A00A3B2A2 /* libfreetype_universal.a */,
+				70CEDDD215EBBB6500A3B2A2 /* libFreetype2_universal.a */,
+				70CEDDD815EBBC1D00A3B2A2 /* libfontconfig_universal.a */,
+				70CEDDD615EBBBC400A3B2A2 /* libpodofo_universal.a */,
+				7011F45015EBB53100042337 /* libjpeg_universal.a */,
+				7011F44C15EBB3F100042337 /* libexpat_universal.a */,
+				7011F44E15EBB4BD00042337 /* libz_universal.a */,
+			);
+			name = "external libraries";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		709EE553159489C1003208D2 /* AnnotatePDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 709EE578159489C1003208D2 /* Build configuration list for PBXNativeTarget "AnnotatePDF" */;
+			buildPhases = (
+				709EE550159489C1003208D2 /* Sources */,
+				709EE551159489C1003208D2 /* Frameworks */,
+				709EE552159489C1003208D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnnotatePDF;
+			productName = AnnotatePDF;
+			productReference = 709EE554159489C1003208D2 /* AnnotatePDF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		709EE54B159489C0003208D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 709EE54E159489C0003208D2 /* Build configuration list for PBXProject "AnnotatePDF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 709EE549159489C0003208D2;
+			productRefGroup = 709EE555159489C1003208D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				709EE553159489C1003208D2 /* AnnotatePDF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		709EE552159489C1003208D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709EE563159489C1003208D2 /* InfoPlist.strings in Resources */,
+				709EE56C159489C1003208D2 /* MainStoryboard_iPhone.storyboard in Resources */,
+				709EE56F159489C1003208D2 /* MainStoryboard_iPad.storyboard in Resources */,
+				7003688C15B61F8500A9E739 /* fonts in Resources */,
+				70813D6015B8443B0021FBE7 /* iPhoneIcon_Small.png in Resources */,
+				70813D6215B844590021FBE7 /* iPhoneIcon_Big.png in Resources */,
+				70877A0F15F90AEC004D1787 /* index.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		709EE550159489C1003208D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709EE565159489C1003208D2 /* main.m in Sources */,
+				709EE569159489C1003208D2 /* APDFAppDelegate.m in Sources */,
+				709EE572159489C1003208D2 /* APDFMasterViewController.m in Sources */,
+				709EE575159489C1003208D2 /* APDFDetailViewController.mm in Sources */,
+				703E3598159DE39D00DE834E /* APDFAnnotation.m in Sources */,
+				703E35B115A6222800DE834E /* PDFPageRenderer.mm in Sources */,
+				703E35B515A6229200DE834E /* ResizableTextView.m in Sources */,
+				703E35B815A6240A00DE834E /* APDFView.m in Sources */,
+				70D87DFC15B9665B004D95F6 /* APDFManager.mm in Sources */,
+				70ADE81E15ED68D100BD0A4A /* APDFAnnotationsVC.m in Sources */,
+				70ADE82715EFDB7B00BD0A4A /* DocWatchHelper.m in Sources */,
+				70137A0E15F6AB6A00EA8731 /* APDFNewAnnotationVC.m in Sources */,
+				70F299C71612F1CF006A77E5 /* SimulatorHandling.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		709EE561159489C1003208D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				709EE562159489C1003208D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		709EE56A159489C1003208D2 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				709EE56B159489C1003208D2 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		709EE56D159489C1003208D2 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				709EE56E159489C1003208D2 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		709EE576159489C1003208D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		709EE577159489C1003208D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		709EE579159489C1003208D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Felix Kopp (HH2ZCDRD6D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Felix Kopp (HH2ZCDRD6D)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnnotatePDF/AnnotatePDF-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/headers/include",
+					"$(SRCROOT)/headers/fontconfig",
+					"$(SRCROOT)/headers/include/podofo",
+					"$(SRCROOT)/headers/include/podofo/doc",
+					"$(SRCROOT)/headers/include/podofo/base",
+				);
+				INFOPLIST_FILE = "AnnotatePDF/AnnotatePDF-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/libraries\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5723378D-AACD-4179-BF9A-22C0DD41F542";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "082B84BF-31EF-41E0-B757-B0E2904B3DCD";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/headers/fontconfig $(SRCROOT)/headers/include/podofo $(SRCROOT)/headers/include/podofo/doc $(SRCROOT)/headers/include/podofo/base";
+				VALID_ARCHS = "armv6 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		709EE57A159489C1003208D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Felix Kopp (HH2ZCDRD6D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Felix Kopp (HH2ZCDRD6D)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnnotatePDF/AnnotatePDF-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/headers/include",
+					"$(SRCROOT)/headers/fontconfig",
+					"$(SRCROOT)/headers/include/podofo",
+					"$(SRCROOT)/headers/include/podofo/doc",
+					"$(SRCROOT)/headers/include/podofo/base",
+				);
+				INFOPLIST_FILE = "AnnotatePDF/AnnotatePDF-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/libraries\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5723378D-AACD-4179-BF9A-22C0DD41F542";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5723378D-AACD-4179-BF9A-22C0DD41F542";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/headers/fontconfig $(SRCROOT)/headers/include/podofo $(SRCROOT)/headers/include/podofo/doc $(SRCROOT)/headers/include/podofo/base";
+				VALID_ARCHS = "armv6 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		709EE54E159489C0003208D2 /* Build configuration list for PBXProject "AnnotatePDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709EE576159489C1003208D2 /* Debug */,
+				709EE577159489C1003208D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		709EE578159489C1003208D2 /* Build configuration list for PBXNativeTarget "AnnotatePDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709EE579159489C1003208D2 /* Debug */,
+				709EE57A159489C1003208D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 709EE54B159489C0003208D2 /* Project object */;
+}

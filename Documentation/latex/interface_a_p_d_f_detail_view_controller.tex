@@ -1,0 +1,172 @@
+\hypertarget{interface_a_p_d_f_detail_view_controller}{\section{A\-P\-D\-F\-Detail\-View\-Controller Class Reference}
+\label{interface_a_p_d_f_detail_view_controller}\index{A\-P\-D\-F\-Detail\-View\-Controller@{A\-P\-D\-F\-Detail\-View\-Controller}}
+}
+
+
+{\ttfamily \#import $<$A\-P\-D\-F\-Detail\-View\-Controller.\-h$>$}
+
+Inheritance diagram for A\-P\-D\-F\-Detail\-View\-Controller\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.068965cm]{interface_a_p_d_f_detail_view_controller}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(Pdf\-Mem\-Document $\ast$) -\/ \hyperlink{interface_a_p_d_f_detail_view_controller_a7f6a33379c5613faa4926546a7f4c60f}{get\-Doc}
+\item 
+(void) -\/ \hyperlink{interface_a_p_d_f_detail_view_controller_ababd6cc8d5d3ead343e7fc8303d47bf8}{reload\-Annotations\-V\-C}
+\item 
+(void) -\/ \hyperlink{interface_a_p_d_f_detail_view_controller_a04c563546f782dee38d50219969c4218}{show\-Annotations\-V\-C}
+\item 
+(void) -\/ \hyperlink{interface_a_p_d_f_detail_view_controller_a1b741c81ffc718cd084c14fa7718b6ed}{update\-Title}
+\item 
+(I\-B\-Action) -\/ \hyperlink{interface_a_p_d_f_detail_view_controller_a6a816fd865b647205e60718f7b69b6ce}{show\-New\-Annotations\-V\-C\-:}
+\item 
+(void) -\/ \hyperlink{interface_a_p_d_f_detail_view_controller_a786dceb0898921a3c8e2af9f70bdc78e}{initialize\-New\-Annots\-Values}
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+N\-S\-String $\ast$ \hyperlink{interface_a_p_d_f_detail_view_controller_adda3bad1f44d9fc5cfac4b94ab75a198}{pdf\-Path}
+\item 
+Pdf\-Mem\-Document $\ast$ \hyperlink{interface_a_p_d_f_detail_view_controller_ab8d4020661eb57276a4748ab9e39b730}{doc}
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+id \hyperlink{interface_a_p_d_f_detail_view_controller_af25271202cf1177a41928066d6cd849a}{detail\-Item}
+\item 
+C\-G\-P\-D\-F\-Document\-Ref \hyperlink{interface_a_p_d_f_detail_view_controller_a46c3fb7500d16940beb2097e6674af7a}{my\-Document\-Ref}
+\item 
+N\-S\-Integer \hyperlink{interface_a_p_d_f_detail_view_controller_af025d28bbcd266b1a1837d6ad486532c}{current\-Page}
+\item 
+N\-S\-Integer \hyperlink{interface_a_p_d_f_detail_view_controller_a2da3cbd8452ab98417155110f0a18294}{max\-Pages}
+\item 
+\hyperlink{interface_a_p_d_f_view}{A\-P\-D\-F\-View} $\ast$ \hyperlink{interface_a_p_d_f_detail_view_controller_aaf490f765a72dd330a26ec4f486bfba1}{pdf\-View}
+\item 
+N\-S\-String $\ast$ \hyperlink{interface_a_p_d_f_detail_view_controller_aa63fcfba604fa748fa5127694451a916}{pdf\-Name}
+\item 
+N\-S\-String $\ast$ \hyperlink{interface_a_p_d_f_detail_view_controller_a7e73dd19df5ed6dedebde35c9901a164}{temporary\-File\-Path}
+\item 
+U\-I\-Popover\-Controller $\ast$ \hyperlink{interface_a_p_d_f_detail_view_controller_a332bcd4a064cfa95fc63527f3d5d474e}{n\-Annots\-Popover}
+\item 
+N\-S\-String $\ast$ \hyperlink{interface_a_p_d_f_detail_view_controller_ab0d6f6ced6de7445c5b83d7ebd485c4a}{annot\-Type}
+\item 
+N\-S\-Number $\ast$ \hyperlink{interface_a_p_d_f_detail_view_controller_a33508d1d7f1b1c686a4e5ab69f56a6de}{with\-Border}
+\item 
+N\-S\-Number $\ast$ \hyperlink{interface_a_p_d_f_detail_view_controller_a27b7494e7ec68ccb9381691b77527035}{border\-Width}
+\item 
+U\-I\-Color $\ast$ \hyperlink{interface_a_p_d_f_detail_view_controller_a78759cc6d13deec4123f1932ab02526c}{annot\-Color}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The detail view controller of the split view in this i\-Pad app. It displays the P\-D\-F file. 
+
+\subsection{Method Documentation}
+\hypertarget{interface_a_p_d_f_detail_view_controller_a7f6a33379c5613faa4926546a7f4c60f}{\index{A\-P\-D\-F\-Detail\-View\-Controller@{A\-P\-D\-F\-Detail\-View\-Controller}!get\-Doc@{get\-Doc}}
+\index{get\-Doc@{get\-Doc}!APDFDetailViewController@{A\-P\-D\-F\-Detail\-View\-Controller}}
+\subsubsection[{get\-Doc}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (Pdf\-Mem\-Document $\ast$) get\-Doc 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_a_p_d_f_detail_view_controller_a7f6a33379c5613faa4926546a7f4c60f}
+Returns the Po\-Do\-Fo\-::\-Pdf\-Mem\-Document of the current pdf file \begin{DoxyReturn}{Returns}
+The Po\-Do\-Fo\-::\-Pdf\-Mem\-Document of the current pdf file 
+\end{DoxyReturn}
+\hypertarget{interface_a_p_d_f_detail_view_controller_a786dceb0898921a3c8e2af9f70bdc78e}{\index{A\-P\-D\-F\-Detail\-View\-Controller@{A\-P\-D\-F\-Detail\-View\-Controller}!initialize\-New\-Annots\-Values@{initialize\-New\-Annots\-Values}}
+\index{initialize\-New\-Annots\-Values@{initialize\-New\-Annots\-Values}!APDFDetailViewController@{A\-P\-D\-F\-Detail\-View\-Controller}}
+\subsubsection[{initialize\-New\-Annots\-Values}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) initialize\-New\-Annots\-Values 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_a_p_d_f_detail_view_controller_a786dceb0898921a3c8e2af9f70bdc78e}
+Initializes the values for annot\-Type, with\-Border, border\-Width and annot\-Color to default values \hypertarget{interface_a_p_d_f_detail_view_controller_ababd6cc8d5d3ead343e7fc8303d47bf8}{\index{A\-P\-D\-F\-Detail\-View\-Controller@{A\-P\-D\-F\-Detail\-View\-Controller}!reload\-Annotations\-V\-C@{reload\-Annotations\-V\-C}}
+\index{reload\-Annotations\-V\-C@{reload\-Annotations\-V\-C}!APDFDetailViewController@{A\-P\-D\-F\-Detail\-View\-Controller}}
+\subsubsection[{reload\-Annotations\-V\-C}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) reload\-Annotations\-V\-C 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_a_p_d_f_detail_view_controller_ababd6cc8d5d3ead343e7fc8303d47bf8}
+Reloads the master view controller showing the Annotations \hypertarget{interface_a_p_d_f_detail_view_controller_a04c563546f782dee38d50219969c4218}{\index{A\-P\-D\-F\-Detail\-View\-Controller@{A\-P\-D\-F\-Detail\-View\-Controller}!show\-Annotations\-V\-C@{show\-Annotations\-V\-C}}
+\index{show\-Annotations\-V\-C@{show\-Annotations\-V\-C}!APDFDetailViewController@{A\-P\-D\-F\-Detail\-View\-Controller}}
+\subsubsection[{show\-Annotations\-V\-C}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) show\-Annotations\-V\-C 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_a_p_d_f_detail_view_controller_a04c563546f782dee38d50219969c4218}
+Lets the view controller with the annotations push to the master view controller \hypertarget{interface_a_p_d_f_detail_view_controller_a6a816fd865b647205e60718f7b69b6ce}{\index{A\-P\-D\-F\-Detail\-View\-Controller@{A\-P\-D\-F\-Detail\-View\-Controller}!show\-New\-Annotations\-V\-C\-:@{show\-New\-Annotations\-V\-C\-:}}
+\index{show\-New\-Annotations\-V\-C\-:@{show\-New\-Annotations\-V\-C\-:}!APDFDetailViewController@{A\-P\-D\-F\-Detail\-View\-Controller}}
+\subsubsection[{show\-New\-Annotations\-V\-C\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) show\-New\-Annotations\-V\-C\-: 
+\begin{DoxyParamCaption}
+\item[{(id)}]{sender}
+\end{DoxyParamCaption}
+}}\label{interface_a_p_d_f_detail_view_controller_a6a816fd865b647205e60718f7b69b6ce}
+Is performed by the action button in the navigation bar and toggels if the new annotations popover should appear or disappear. If the popover is already visible the popover gets dismissed else the new annotations view controller gets shown 
+\begin{DoxyParams}{Parameters}
+{\em sender} & The Button that triggered the event \\
+\hline
+\end{DoxyParams}
+\hypertarget{interface_a_p_d_f_detail_view_controller_a1b741c81ffc718cd084c14fa7718b6ed}{\index{A\-P\-D\-F\-Detail\-View\-Controller@{A\-P\-D\-F\-Detail\-View\-Controller}!update\-Title@{update\-Title}}
+\index{update\-Title@{update\-Title}!APDFDetailViewController@{A\-P\-D\-F\-Detail\-View\-Controller}}
+\subsubsection[{update\-Title}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) update\-Title 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_a_p_d_f_detail_view_controller_a1b741c81ffc718cd084c14fa7718b6ed}
+Updates the title in the navigation bar with the style\-: current\-Pdf.\-pdf \mbox{[}1/3\mbox{]} That means the current pdf file's name is current\-Pdf.\-pdf and currently page 1 of 3 is displayed 
+
+\subsection{Member Data Documentation}
+\hypertarget{interface_a_p_d_f_detail_view_controller_ab8d4020661eb57276a4748ab9e39b730}{\index{A\-P\-D\-F\-Detail\-View\-Controller@{A\-P\-D\-F\-Detail\-View\-Controller}!doc@{doc}}
+\index{doc@{doc}!APDFDetailViewController@{A\-P\-D\-F\-Detail\-View\-Controller}}
+\subsubsection[{doc}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (Pdf\-Mem\-Document$\ast$) doc\hspace{0.3cm}{\ttfamily [protected]}}}\label{interface_a_p_d_f_detail_view_controller_ab8d4020661eb57276a4748ab9e39b730}
+A Po\-Do\-Fo\-::\-Pdf\-Mem\-Document of the current P\-D\-F file \hypertarget{interface_a_p_d_f_detail_view_controller_adda3bad1f44d9fc5cfac4b94ab75a198}{\index{A\-P\-D\-F\-Detail\-View\-Controller@{A\-P\-D\-F\-Detail\-View\-Controller}!pdf\-Path@{pdf\-Path}}
+\index{pdf\-Path@{pdf\-Path}!APDFDetailViewController@{A\-P\-D\-F\-Detail\-View\-Controller}}
+\subsubsection[{pdf\-Path}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String$\ast$) pdf\-Path\hspace{0.3cm}{\ttfamily [protected]}}}\label{interface_a_p_d_f_detail_view_controller_adda3bad1f44d9fc5cfac4b94ab75a198}
+The filepath to the current P\-D\-F file 
+
+\subsection{Property Documentation}
+\hypertarget{interface_a_p_d_f_detail_view_controller_a78759cc6d13deec4123f1932ab02526c}{\index{A\-P\-D\-F\-Detail\-View\-Controller@{A\-P\-D\-F\-Detail\-View\-Controller}!annot\-Color@{annot\-Color}}
+\index{annot\-Color@{annot\-Color}!APDFDetailViewController@{A\-P\-D\-F\-Detail\-View\-Controller}}
+\subsubsection[{annot\-Color}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (U\-I\-Color$\ast$) annot\-Color\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_detail_view_controller_a78759cc6d13deec4123f1932ab02526c}
+The color of the new Annotation \hypertarget{interface_a_p_d_f_detail_view_controller_ab0d6f6ced6de7445c5b83d7ebd485c4a}{\index{A\-P\-D\-F\-Detail\-View\-Controller@{A\-P\-D\-F\-Detail\-View\-Controller}!annot\-Type@{annot\-Type}}
+\index{annot\-Type@{annot\-Type}!APDFDetailViewController@{A\-P\-D\-F\-Detail\-View\-Controller}}
+\subsubsection[{annot\-Type}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String$\ast$) annot\-Type\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_detail_view_controller_ab0d6f6ced6de7445c5b83d7ebd485c4a}
+The type of a new annotation \hypertarget{interface_a_p_d_f_detail_view_controller_a27b7494e7ec68ccb9381691b77527035}{\index{A\-P\-D\-F\-Detail\-View\-Controller@{A\-P\-D\-F\-Detail\-View\-Controller}!border\-Width@{border\-Width}}
+\index{border\-Width@{border\-Width}!APDFDetailViewController@{A\-P\-D\-F\-Detail\-View\-Controller}}
+\subsubsection[{border\-Width}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Number$\ast$) border\-Width\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_detail_view_controller_a27b7494e7ec68ccb9381691b77527035}
+N\-S\-Number with double value of the border\-Width of a new annotation \hypertarget{interface_a_p_d_f_detail_view_controller_af025d28bbcd266b1a1837d6ad486532c}{\index{A\-P\-D\-F\-Detail\-View\-Controller@{A\-P\-D\-F\-Detail\-View\-Controller}!current\-Page@{current\-Page}}
+\index{current\-Page@{current\-Page}!APDFDetailViewController@{A\-P\-D\-F\-Detail\-View\-Controller}}
+\subsubsection[{current\-Page}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Integer) current\-Page\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [assign]}}}\label{interface_a_p_d_f_detail_view_controller_af025d28bbcd266b1a1837d6ad486532c}
+The index of the currently displayed page \hypertarget{interface_a_p_d_f_detail_view_controller_af25271202cf1177a41928066d6cd849a}{\index{A\-P\-D\-F\-Detail\-View\-Controller@{A\-P\-D\-F\-Detail\-View\-Controller}!detail\-Item@{detail\-Item}}
+\index{detail\-Item@{detail\-Item}!APDFDetailViewController@{A\-P\-D\-F\-Detail\-View\-Controller}}
+\subsubsection[{detail\-Item}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id) detail\-Item\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [strong]}}}\label{interface_a_p_d_f_detail_view_controller_af25271202cf1177a41928066d6cd849a}
+The P\-D\-F filepath to the current pdf file \hypertarget{interface_a_p_d_f_detail_view_controller_a2da3cbd8452ab98417155110f0a18294}{\index{A\-P\-D\-F\-Detail\-View\-Controller@{A\-P\-D\-F\-Detail\-View\-Controller}!max\-Pages@{max\-Pages}}
+\index{max\-Pages@{max\-Pages}!APDFDetailViewController@{A\-P\-D\-F\-Detail\-View\-Controller}}
+\subsubsection[{max\-Pages}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Integer) max\-Pages\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [assign]}}}\label{interface_a_p_d_f_detail_view_controller_a2da3cbd8452ab98417155110f0a18294}
+The count of pages of the current pdf file \hypertarget{interface_a_p_d_f_detail_view_controller_a46c3fb7500d16940beb2097e6674af7a}{\index{A\-P\-D\-F\-Detail\-View\-Controller@{A\-P\-D\-F\-Detail\-View\-Controller}!my\-Document\-Ref@{my\-Document\-Ref}}
+\index{my\-Document\-Ref@{my\-Document\-Ref}!APDFDetailViewController@{A\-P\-D\-F\-Detail\-View\-Controller}}
+\subsubsection[{my\-Document\-Ref}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (C\-G\-P\-D\-F\-Document\-Ref) my\-Document\-Ref\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [assign]}}}\label{interface_a_p_d_f_detail_view_controller_a46c3fb7500d16940beb2097e6674af7a}
+The currently opened P\-D\-F file \hypertarget{interface_a_p_d_f_detail_view_controller_a332bcd4a064cfa95fc63527f3d5d474e}{\index{A\-P\-D\-F\-Detail\-View\-Controller@{A\-P\-D\-F\-Detail\-View\-Controller}!n\-Annots\-Popover@{n\-Annots\-Popover}}
+\index{n\-Annots\-Popover@{n\-Annots\-Popover}!APDFDetailViewController@{A\-P\-D\-F\-Detail\-View\-Controller}}
+\subsubsection[{n\-Annots\-Popover}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (U\-I\-Popover\-Controller$\ast$) n\-Annots\-Popover\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_detail_view_controller_a332bcd4a064cfa95fc63527f3d5d474e}
+The popover that shows the new annotations view controller \hypertarget{interface_a_p_d_f_detail_view_controller_aa63fcfba604fa748fa5127694451a916}{\index{A\-P\-D\-F\-Detail\-View\-Controller@{A\-P\-D\-F\-Detail\-View\-Controller}!pdf\-Name@{pdf\-Name}}
+\index{pdf\-Name@{pdf\-Name}!APDFDetailViewController@{A\-P\-D\-F\-Detail\-View\-Controller}}
+\subsubsection[{pdf\-Name}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String$\ast$) pdf\-Name\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_detail_view_controller_aa63fcfba604fa748fa5127694451a916}
+The name of the current pdf file including its extension. This is shown in the navigation bar \hypertarget{interface_a_p_d_f_detail_view_controller_aaf490f765a72dd330a26ec4f486bfba1}{\index{A\-P\-D\-F\-Detail\-View\-Controller@{A\-P\-D\-F\-Detail\-View\-Controller}!pdf\-View@{pdf\-View}}
+\index{pdf\-View@{pdf\-View}!APDFDetailViewController@{A\-P\-D\-F\-Detail\-View\-Controller}}
+\subsubsection[{pdf\-View}]{\setlength{\rightskip}{0pt plus 5cm}-\/ ({\bf A\-P\-D\-F\-View}$\ast$) pdf\-View\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_detail_view_controller_aaf490f765a72dd330a26ec4f486bfba1}
+The \hyperlink{interface_a_p_d_f_view}{A\-P\-D\-F\-View} that displays the current P\-D\-F page \hypertarget{interface_a_p_d_f_detail_view_controller_a7e73dd19df5ed6dedebde35c9901a164}{\index{A\-P\-D\-F\-Detail\-View\-Controller@{A\-P\-D\-F\-Detail\-View\-Controller}!temporary\-File\-Path@{temporary\-File\-Path}}
+\index{temporary\-File\-Path@{temporary\-File\-Path}!APDFDetailViewController@{A\-P\-D\-F\-Detail\-View\-Controller}}
+\subsubsection[{temporary\-File\-Path}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String$\ast$) temporary\-File\-Path\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_detail_view_controller_a7e73dd19df5ed6dedebde35c9901a164}
+The filepath of the temporary copy of the current pdf file \hypertarget{interface_a_p_d_f_detail_view_controller_a33508d1d7f1b1c686a4e5ab69f56a6de}{\index{A\-P\-D\-F\-Detail\-View\-Controller@{A\-P\-D\-F\-Detail\-View\-Controller}!with\-Border@{with\-Border}}
+\index{with\-Border@{with\-Border}!APDFDetailViewController@{A\-P\-D\-F\-Detail\-View\-Controller}}
+\subsubsection[{with\-Border}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Number$\ast$) with\-Border\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_detail_view_controller_a33508d1d7f1b1c686a4e5ab69f56a6de}
+N\-S\-Number with B\-O\-O\-L value if border is on or off for a new annotation 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+Annotate\-P\-D\-F/\hyperlink{_a_p_d_f_detail_view_controller_8h}{A\-P\-D\-F\-Detail\-View\-Controller.\-h}\item 
+Annotate\-P\-D\-F/\hyperlink{_a_p_d_f_detail_view_controller_8mm}{A\-P\-D\-F\-Detail\-View\-Controller.\-mm}\end{DoxyCompactItemize}

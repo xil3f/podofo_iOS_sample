@@ -1,0 +1,63 @@
+\hypertarget{interface_a_p_d_f_master_view_controller}{\section{A\-P\-D\-F\-Master\-View\-Controller Class Reference}
+\label{interface_a_p_d_f_master_view_controller}\index{A\-P\-D\-F\-Master\-View\-Controller@{A\-P\-D\-F\-Master\-View\-Controller}}
+}
+
+
+{\ttfamily \#import $<$A\-P\-D\-F\-Master\-View\-Controller.\-h$>$}
+
+Inheritance diagram for A\-P\-D\-F\-Master\-View\-Controller\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_a_p_d_f_master_view_controller}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(void) -\/ \hyperlink{interface_a_p_d_f_master_view_controller_a8dd26c407be95d9e7eef02397880aeec}{contents\-Changed\-:}
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{interface_a_p_d_f_detail_view_controller}{A\-P\-D\-F\-Detail\-View\-Controller} $\ast$ \hyperlink{interface_a_p_d_f_master_view_controller_a90fcd41e1231cd3413c9b0195dccca2e}{detail\-View\-Controller}
+\item 
+N\-S\-Array $\ast$ \hyperlink{interface_a_p_d_f_master_view_controller_abd98ad58eefb1b1f67b81aefb3bf7cca}{paths\-Array}
+\item 
+\hyperlink{interface_doc_watch_helper}{Doc\-Watch\-Helper} $\ast$ \hyperlink{interface_a_p_d_f_master_view_controller_ac8517ec8e07d9227cc32bf3b6ddba3ae}{helper}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The master view controller of the split view in this i\-Pad app. It shows the content of the shared Documents directory of the app and lets the user select a P\-D\-F file 
+
+\subsection{Method Documentation}
+\hypertarget{interface_a_p_d_f_master_view_controller_a8dd26c407be95d9e7eef02397880aeec}{\index{A\-P\-D\-F\-Master\-View\-Controller@{A\-P\-D\-F\-Master\-View\-Controller}!contents\-Changed\-:@{contents\-Changed\-:}}
+\index{contents\-Changed\-:@{contents\-Changed\-:}!APDFMasterViewController@{A\-P\-D\-F\-Master\-View\-Controller}}
+\subsubsection[{contents\-Changed\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) contents\-Changed\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Notification $\ast$)}]{notification}
+\end{DoxyParamCaption}
+}}\label{interface_a_p_d_f_master_view_controller_a8dd26c407be95d9e7eef02397880aeec}
+Is called when the shared Documents directory changes 
+\begin{DoxyParams}{Parameters}
+{\em notification} & The notification sent by the \hyperlink{interface_doc_watch_helper}{Doc\-Watch\-Helper} \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Property Documentation}
+\hypertarget{interface_a_p_d_f_master_view_controller_a90fcd41e1231cd3413c9b0195dccca2e}{\index{A\-P\-D\-F\-Master\-View\-Controller@{A\-P\-D\-F\-Master\-View\-Controller}!detail\-View\-Controller@{detail\-View\-Controller}}
+\index{detail\-View\-Controller@{detail\-View\-Controller}!APDFMasterViewController@{A\-P\-D\-F\-Master\-View\-Controller}}
+\subsubsection[{detail\-View\-Controller}]{\setlength{\rightskip}{0pt plus 5cm}-\/ ({\bf A\-P\-D\-F\-Detail\-View\-Controller}$\ast$) detail\-View\-Controller\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [strong]}}}\label{interface_a_p_d_f_master_view_controller_a90fcd41e1231cd3413c9b0195dccca2e}
+The detail view controller of the split view in this i\-Pad app \hypertarget{interface_a_p_d_f_master_view_controller_ac8517ec8e07d9227cc32bf3b6ddba3ae}{\index{A\-P\-D\-F\-Master\-View\-Controller@{A\-P\-D\-F\-Master\-View\-Controller}!helper@{helper}}
+\index{helper@{helper}!APDFMasterViewController@{A\-P\-D\-F\-Master\-View\-Controller}}
+\subsubsection[{helper}]{\setlength{\rightskip}{0pt plus 5cm}-\/ ({\bf Doc\-Watch\-Helper}$\ast$) helper\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_master_view_controller_ac8517ec8e07d9227cc32bf3b6ddba3ae}
+The Notification Center that monitors the shared Documents directory \hypertarget{interface_a_p_d_f_master_view_controller_abd98ad58eefb1b1f67b81aefb3bf7cca}{\index{A\-P\-D\-F\-Master\-View\-Controller@{A\-P\-D\-F\-Master\-View\-Controller}!paths\-Array@{paths\-Array}}
+\index{paths\-Array@{paths\-Array}!APDFMasterViewController@{A\-P\-D\-F\-Master\-View\-Controller}}
+\subsubsection[{paths\-Array}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Array$\ast$) paths\-Array\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_master_view_controller_abd98ad58eefb1b1f67b81aefb3bf7cca}
+An Array with the paths to all P\-D\-F files in the shared Documents directory 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+Annotate\-P\-D\-F/\hyperlink{_a_p_d_f_master_view_controller_8h}{A\-P\-D\-F\-Master\-View\-Controller.\-h}\item 
+Annotate\-P\-D\-F/\hyperlink{_a_p_d_f_master_view_controller_8m}{A\-P\-D\-F\-Master\-View\-Controller.\-m}\end{DoxyCompactItemize}

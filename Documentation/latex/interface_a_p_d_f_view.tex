@@ -1,0 +1,166 @@
+\hypertarget{interface_a_p_d_f_view}{\section{A\-P\-D\-F\-View Class Reference}
+\label{interface_a_p_d_f_view}\index{A\-P\-D\-F\-View@{A\-P\-D\-F\-View}}
+}
+
+
+{\ttfamily \#import $<$A\-P\-D\-F\-View.\-h$>$}
+
+Inheritance diagram for A\-P\-D\-F\-View\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.839080cm]{interface_a_p_d_f_view}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(void) -\/ \hyperlink{interface_a_p_d_f_view_a097e7b5949840ef82bebdc9a97f23b5b}{display\-P\-D\-F\-Page\-Number\-:}
+\item 
+(void) -\/ \hyperlink{interface_a_p_d_f_view_aa2c8d3e49118a1d27aac472978d7f71d}{calculate\-Touch\-Zones}
+\item 
+(void) -\/ \hyperlink{interface_a_p_d_f_view_ab14445dadabad2c5dac6eea171fedb01}{reload\-Pdf}
+\item 
+(B\-O\-O\-L) -\/ \hyperlink{interface_a_p_d_f_view_a4811b01cc19eee5fcd53ff5f372c85e2}{location\-In\-Pdf\-View\-:}
+\item 
+(C\-G\-Rect) -\/ \hyperlink{interface_a_p_d_f_view_a73790d536206b98c40a57d25d8bad792}{frame\-In\-Pdf\-For\-View\-:}
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+C\-G\-Point \hyperlink{interface_a_p_d_f_view_afb6689ca57c46c09d6a37a7c60ae5f52}{point}
+\item 
+\hyperlink{interface_resizable_text_view}{Resizable\-Text\-View} $\ast$ \hyperlink{interface_a_p_d_f_view_adba82d308f7f6629000643b288127725}{annot\-Text\-View}
+\item 
+\hyperlink{interface_a_p_d_f_detail_view_controller}{A\-P\-D\-F\-Detail\-View\-Controller} $\ast$ \hyperlink{interface_a_p_d_f_view_ad613f45976958c923fad11d2a37f3e2e}{detail\-V\-C}
+\item 
+C\-G\-Point \hyperlink{interface_a_p_d_f_view_aa1a5d0930fcd5aeebcbcead8fdf9ce6f}{n\-Annot\-Start\-Point}
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+N\-S\-Integer \hyperlink{interface_a_p_d_f_view_a0b65e4af25d04f030c8d56e5bc9420ba}{current\-Page}
+\item 
+C\-G\-P\-D\-F\-Document\-Ref \hyperlink{interface_a_p_d_f_view_abfd40cc20df359fde8d000a80c2b07b1}{my\-Document\-Ref}
+\item 
+C\-G\-P\-D\-F\-Page\-Ref \hyperlink{interface_a_p_d_f_view_a212b6e8af54a7ff05d615a21e6ebc060}{pdf\-Page}
+\item 
+C\-G\-Rect \hyperlink{interface_a_p_d_f_view_a00c74386673969efcb36e654be9ab04e}{next\-Page\-Rect}
+\item 
+C\-G\-Rect \hyperlink{interface_a_p_d_f_view_a6b63fc09909583cc1b39cb80c739caa5}{prev\-Page\-Rect}
+\item 
+N\-S\-String $\ast$ \hyperlink{interface_a_p_d_f_view_acc47c24f2e2edd6fc251380ab4ac41b2}{pdf\-Path}
+\item 
+id$<$ \hyperlink{protocol_a_p_d_f_view_delegate-p}{A\-P\-D\-F\-View\-Delegate} $>$ \hyperlink{interface_a_p_d_f_view_ad971242eaf334f887a4346d92f1587d9}{delegate}
+\item 
+float \hyperlink{interface_a_p_d_f_view_a17160b472ff2e9a7d4cbbd30f5db22c5}{pdf\-Scale}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The View that displays the P\-D\-F page and creates new Annotations 
+
+\subsection{Method Documentation}
+\hypertarget{interface_a_p_d_f_view_aa2c8d3e49118a1d27aac472978d7f71d}{\index{A\-P\-D\-F\-View@{A\-P\-D\-F\-View}!calculate\-Touch\-Zones@{calculate\-Touch\-Zones}}
+\index{calculate\-Touch\-Zones@{calculate\-Touch\-Zones}!APDFView@{A\-P\-D\-F\-View}}
+\subsubsection[{calculate\-Touch\-Zones}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) calculate\-Touch\-Zones 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_a_p_d_f_view_aa2c8d3e49118a1d27aac472978d7f71d}
+Calculates the next\-Page\-Rect and prev\-Page\-Rect in dependence of the view size \hypertarget{interface_a_p_d_f_view_a097e7b5949840ef82bebdc9a97f23b5b}{\index{A\-P\-D\-F\-View@{A\-P\-D\-F\-View}!display\-P\-D\-F\-Page\-Number\-:@{display\-P\-D\-F\-Page\-Number\-:}}
+\index{display\-P\-D\-F\-Page\-Number\-:@{display\-P\-D\-F\-Page\-Number\-:}!APDFView@{A\-P\-D\-F\-View}}
+\subsubsection[{display\-P\-D\-F\-Page\-Number\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) display\-P\-D\-F\-Page\-Number\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Integer)}]{page\-Num}
+\end{DoxyParamCaption}
+}}\label{interface_a_p_d_f_view_a097e7b5949840ef82bebdc9a97f23b5b}
+Displays page with specified index of the current P\-D\-F file 
+\begin{DoxyParams}{Parameters}
+{\em page\-Num} & The page index \\
+\hline
+\end{DoxyParams}
+\hypertarget{interface_a_p_d_f_view_a73790d536206b98c40a57d25d8bad792}{\index{A\-P\-D\-F\-View@{A\-P\-D\-F\-View}!frame\-In\-Pdf\-For\-View\-:@{frame\-In\-Pdf\-For\-View\-:}}
+\index{frame\-In\-Pdf\-For\-View\-:@{frame\-In\-Pdf\-For\-View\-:}!APDFView@{A\-P\-D\-F\-View}}
+\subsubsection[{frame\-In\-Pdf\-For\-View\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (C\-G\-Rect) frame\-In\-Pdf\-For\-View\-: 
+\begin{DoxyParamCaption}
+\item[{(U\-I\-View$\ast$)}]{view}
+\end{DoxyParamCaption}
+}}\label{interface_a_p_d_f_view_a73790d536206b98c40a57d25d8bad792}
+Takes a specified view that is a subview of the \hyperlink{interface_a_p_d_f_view}{A\-P\-D\-F\-View} and calculates its coordinates in the P\-D\-F page 
+\begin{DoxyParams}{Parameters}
+{\em view} & A subview of the \hyperlink{interface_a_p_d_f_view}{A\-P\-D\-F\-View} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The rect of the specified view in the P\-D\-F page 
+\end{DoxyReturn}
+\hypertarget{interface_a_p_d_f_view_a4811b01cc19eee5fcd53ff5f372c85e2}{\index{A\-P\-D\-F\-View@{A\-P\-D\-F\-View}!location\-In\-Pdf\-View\-:@{location\-In\-Pdf\-View\-:}}
+\index{location\-In\-Pdf\-View\-:@{location\-In\-Pdf\-View\-:}!APDFView@{A\-P\-D\-F\-View}}
+\subsubsection[{location\-In\-Pdf\-View\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (B\-O\-O\-L) location\-In\-Pdf\-View\-: 
+\begin{DoxyParamCaption}
+\item[{(C\-G\-Point)}]{location}
+\end{DoxyParamCaption}
+}}\label{interface_a_p_d_f_view_a4811b01cc19eee5fcd53ff5f372c85e2}
+Checks if a specified point is in the area where the P\-D\-F page is displayed 
+\begin{DoxyParams}{Parameters}
+{\em location} & The point that has to be checked \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Y\-E\-S if the point is inside, N\-O if the point is outside 
+\end{DoxyReturn}
+\hypertarget{interface_a_p_d_f_view_ab14445dadabad2c5dac6eea171fedb01}{\index{A\-P\-D\-F\-View@{A\-P\-D\-F\-View}!reload\-Pdf@{reload\-Pdf}}
+\index{reload\-Pdf@{reload\-Pdf}!APDFView@{A\-P\-D\-F\-View}}
+\subsubsection[{reload\-Pdf}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) reload\-Pdf 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_a_p_d_f_view_ab14445dadabad2c5dac6eea171fedb01}
+Reloads the parameters my\-Document\-Ref and pdf\-Page in dependence of pdf\-Path and current\-Page 
+
+\subsection{Member Data Documentation}
+\hypertarget{interface_a_p_d_f_view_adba82d308f7f6629000643b288127725}{\index{A\-P\-D\-F\-View@{A\-P\-D\-F\-View}!annot\-Text\-View@{annot\-Text\-View}}
+\index{annot\-Text\-View@{annot\-Text\-View}!APDFView@{A\-P\-D\-F\-View}}
+\subsubsection[{annot\-Text\-View}]{\setlength{\rightskip}{0pt plus 5cm}-\/ ({\bf Resizable\-Text\-View}$\ast$) annot\-Text\-View\hspace{0.3cm}{\ttfamily [protected]}}}\label{interface_a_p_d_f_view_adba82d308f7f6629000643b288127725}
+The active Text\-View during the creation of a new annotation. When there is no creation active it should be nil \hypertarget{interface_a_p_d_f_view_ad613f45976958c923fad11d2a37f3e2e}{\index{A\-P\-D\-F\-View@{A\-P\-D\-F\-View}!detail\-V\-C@{detail\-V\-C}}
+\index{detail\-V\-C@{detail\-V\-C}!APDFView@{A\-P\-D\-F\-View}}
+\subsubsection[{detail\-V\-C}]{\setlength{\rightskip}{0pt plus 5cm}-\/ ({\bf A\-P\-D\-F\-Detail\-View\-Controller}$\ast$) detail\-V\-C\hspace{0.3cm}{\ttfamily [protected]}}}\label{interface_a_p_d_f_view_ad613f45976958c923fad11d2a37f3e2e}
+The Detail\-View\-Controller of the Split\-View of this i\-Pad App. This View\-Controller displays this \hyperlink{interface_a_p_d_f_view}{A\-P\-D\-F\-View} \hypertarget{interface_a_p_d_f_view_aa1a5d0930fcd5aeebcbcead8fdf9ce6f}{\index{A\-P\-D\-F\-View@{A\-P\-D\-F\-View}!n\-Annot\-Start\-Point@{n\-Annot\-Start\-Point}}
+\index{n\-Annot\-Start\-Point@{n\-Annot\-Start\-Point}!APDFView@{A\-P\-D\-F\-View}}
+\subsubsection[{n\-Annot\-Start\-Point}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (C\-G\-Point) n\-Annot\-Start\-Point\hspace{0.3cm}{\ttfamily [protected]}}}\label{interface_a_p_d_f_view_aa1a5d0930fcd5aeebcbcead8fdf9ce6f}
+The point where a new annotation starts during the creation of a new square annotation. \hypertarget{interface_a_p_d_f_view_afb6689ca57c46c09d6a37a7c60ae5f52}{\index{A\-P\-D\-F\-View@{A\-P\-D\-F\-View}!point@{point}}
+\index{point@{point}!APDFView@{A\-P\-D\-F\-View}}
+\subsubsection[{point}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (C\-G\-Point) point\hspace{0.3cm}{\ttfamily [protected]}}}\label{interface_a_p_d_f_view_afb6689ca57c46c09d6a37a7c60ae5f52}
+The Point in the view where the P\-D\-F page starts 
+
+\subsection{Property Documentation}
+\hypertarget{interface_a_p_d_f_view_a0b65e4af25d04f030c8d56e5bc9420ba}{\index{A\-P\-D\-F\-View@{A\-P\-D\-F\-View}!current\-Page@{current\-Page}}
+\index{current\-Page@{current\-Page}!APDFView@{A\-P\-D\-F\-View}}
+\subsubsection[{current\-Page}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Integer) current\-Page\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [assign]}}}\label{interface_a_p_d_f_view_a0b65e4af25d04f030c8d56e5bc9420ba}
+The index of the current page that is displayed \hypertarget{interface_a_p_d_f_view_ad971242eaf334f887a4346d92f1587d9}{\index{A\-P\-D\-F\-View@{A\-P\-D\-F\-View}!delegate@{delegate}}
+\index{delegate@{delegate}!APDFView@{A\-P\-D\-F\-View}}
+\subsubsection[{delegate}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id$<${\bf A\-P\-D\-F\-View\-Delegate}$>$) delegate\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [assign]}}}\label{interface_a_p_d_f_view_ad971242eaf334f887a4346d92f1587d9}
+The delegate of the \hyperlink{interface_a_p_d_f_view}{A\-P\-D\-F\-View} \hypertarget{interface_a_p_d_f_view_abfd40cc20df359fde8d000a80c2b07b1}{\index{A\-P\-D\-F\-View@{A\-P\-D\-F\-View}!my\-Document\-Ref@{my\-Document\-Ref}}
+\index{my\-Document\-Ref@{my\-Document\-Ref}!APDFView@{A\-P\-D\-F\-View}}
+\subsubsection[{my\-Document\-Ref}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (C\-G\-P\-D\-F\-Document\-Ref) my\-Document\-Ref\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [assign]}}}\label{interface_a_p_d_f_view_abfd40cc20df359fde8d000a80c2b07b1}
+The P\-D\-F document that is active (a page of it is displayed) \hypertarget{interface_a_p_d_f_view_a00c74386673969efcb36e654be9ab04e}{\index{A\-P\-D\-F\-View@{A\-P\-D\-F\-View}!next\-Page\-Rect@{next\-Page\-Rect}}
+\index{next\-Page\-Rect@{next\-Page\-Rect}!APDFView@{A\-P\-D\-F\-View}}
+\subsubsection[{next\-Page\-Rect}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (C\-G\-Rect) next\-Page\-Rect\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [assign]}}}\label{interface_a_p_d_f_view_a00c74386673969efcb36e654be9ab04e}
+The rect that recognices a tap and then performs an action to display the next page \hypertarget{interface_a_p_d_f_view_a212b6e8af54a7ff05d615a21e6ebc060}{\index{A\-P\-D\-F\-View@{A\-P\-D\-F\-View}!pdf\-Page@{pdf\-Page}}
+\index{pdf\-Page@{pdf\-Page}!APDFView@{A\-P\-D\-F\-View}}
+\subsubsection[{pdf\-Page}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (C\-G\-P\-D\-F\-Page\-Ref) pdf\-Page\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [assign]}}}\label{interface_a_p_d_f_view_a212b6e8af54a7ff05d615a21e6ebc060}
+The P\-D\-F page that is displayed \hypertarget{interface_a_p_d_f_view_acc47c24f2e2edd6fc251380ab4ac41b2}{\index{A\-P\-D\-F\-View@{A\-P\-D\-F\-View}!pdf\-Path@{pdf\-Path}}
+\index{pdf\-Path@{pdf\-Path}!APDFView@{A\-P\-D\-F\-View}}
+\subsubsection[{pdf\-Path}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String$\ast$) pdf\-Path\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_view_acc47c24f2e2edd6fc251380ab4ac41b2}
+The filepath to the active P\-D\-F file \hypertarget{interface_a_p_d_f_view_a17160b472ff2e9a7d4cbbd30f5db22c5}{\index{A\-P\-D\-F\-View@{A\-P\-D\-F\-View}!pdf\-Scale@{pdf\-Scale}}
+\index{pdf\-Scale@{pdf\-Scale}!APDFView@{A\-P\-D\-F\-View}}
+\subsubsection[{pdf\-Scale}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (float) pdf\-Scale\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [atomic]}}}\label{interface_a_p_d_f_view_a17160b472ff2e9a7d4cbbd30f5db22c5}
+The scale of the P\-D\-F page to match into the \hyperlink{interface_a_p_d_f_view}{A\-P\-D\-F\-View} \hypertarget{interface_a_p_d_f_view_a6b63fc09909583cc1b39cb80c739caa5}{\index{A\-P\-D\-F\-View@{A\-P\-D\-F\-View}!prev\-Page\-Rect@{prev\-Page\-Rect}}
+\index{prev\-Page\-Rect@{prev\-Page\-Rect}!APDFView@{A\-P\-D\-F\-View}}
+\subsubsection[{prev\-Page\-Rect}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (C\-G\-Rect) prev\-Page\-Rect\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [assign]}}}\label{interface_a_p_d_f_view_a6b63fc09909583cc1b39cb80c739caa5}
+The rect that recognices a tap and then performs an action to display the previous page 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+Annotate\-P\-D\-F/\hyperlink{_a_p_d_f_view_8h}{A\-P\-D\-F\-View.\-h}\item 
+Annotate\-P\-D\-F/\hyperlink{_a_p_d_f_view_8m}{A\-P\-D\-F\-View.\-m}\end{DoxyCompactItemize}

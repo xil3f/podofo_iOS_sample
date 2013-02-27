@@ -1,0 +1,94 @@
+\hypertarget{interface_a_p_d_f_annotation}{\section{A\-P\-D\-F\-Annotation Class Reference}
+\label{interface_a_p_d_f_annotation}\index{A\-P\-D\-F\-Annotation@{A\-P\-D\-F\-Annotation}}
+}
+
+
+{\ttfamily \#import $<$A\-P\-D\-F\-Annotation.\-h$>$}
+
+Inheritance diagram for A\-P\-D\-F\-Annotation\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_a_p_d_f_annotation}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(id) -\/ \hyperlink{interface_a_p_d_f_annotation_a52ff93c3cda40c8d0a4b3c49b1bf646f}{init\-With\-P\-D\-F\-Dictionary\-:and\-Type\-:}
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+N\-S\-String $\ast$ \hyperlink{interface_a_p_d_f_annotation_a0151ed813f0043344ffc890de7f3d000}{annotation\-Type}
+\item 
+U\-I\-Font $\ast$ \hyperlink{interface_a_p_d_f_annotation_a9c2cdd317cf382753204627ee4fed4fb}{font}
+\item 
+N\-S\-String $\ast$ \hyperlink{interface_a_p_d_f_annotation_ac7a9328cd7302940ddfbe3cbe79cb7ee}{text\-String}
+\item 
+\hyperlink{interface_resizable_text_view}{Resizable\-Text\-View} $\ast$ \hyperlink{interface_a_p_d_f_annotation_aa2b404a57629cd6728d4a59d3e762fb7}{annotation\-View}
+\item 
+U\-I\-Color $\ast$ \hyperlink{interface_a_p_d_f_annotation_a2d67df8bfd2b3d4182ee5a88a6e916ff}{text\-Color}
+\item 
+U\-I\-Color $\ast$ \hyperlink{interface_a_p_d_f_annotation_a9cab5deed33c003423446b122356a8f6}{annot\-Color}
+\item 
+U\-I\-Text\-Alignment \hyperlink{interface_a_p_d_f_annotation_afaac76ef1a7c19ee46e05315828f3283}{text\-Alignment}
+\item 
+C\-G\-Float \hyperlink{interface_a_p_d_f_annotation_a835dbd5060e5a2c982ed3da97d2a90de}{border\-Width}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A class that models an annotation with a given annotation type, and parameters that specify the annotation. For Free\-Text Annotatons the font type, the text and the text color are specified. For Square and Highlight annotations the property a annotation color is specified instead of the text color. All Annotations hold a view that has the right size and contains the annotation. This view can be drawn into the P\-D\-F. 
+
+\subsection{Method Documentation}
+\hypertarget{interface_a_p_d_f_annotation_a52ff93c3cda40c8d0a4b3c49b1bf646f}{\index{A\-P\-D\-F\-Annotation@{A\-P\-D\-F\-Annotation}!init\-With\-P\-D\-F\-Dictionary\-:and\-Type\-:@{init\-With\-P\-D\-F\-Dictionary\-:and\-Type\-:}}
+\index{init\-With\-P\-D\-F\-Dictionary\-:and\-Type\-:@{init\-With\-P\-D\-F\-Dictionary\-:and\-Type\-:}!APDFAnnotation@{A\-P\-D\-F\-Annotation}}
+\subsubsection[{init\-With\-P\-D\-F\-Dictionary\-:and\-Type\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (id) init\-With\-P\-D\-F\-Dictionary\-: 
+\begin{DoxyParamCaption}
+\item[{(C\-G\-P\-D\-F\-Dictionary\-Ref)}]{annot\-Dict}
+\item[{andType:(N\-S\-String$\ast$)}]{type}
+\end{DoxyParamCaption}
+}}\label{interface_a_p_d_f_annotation_a52ff93c3cda40c8d0a4b3c49b1bf646f}
+Initializes an \hyperlink{interface_a_p_d_f_annotation}{A\-P\-D\-F\-Annotation} with a specified P\-D\-F dictionary containing the annotation properties and a specified type 
+\begin{DoxyParams}{Parameters}
+{\em annot\-Dict} & The C\-G\-P\-D\-F\-Dictionary\-Ref containing the annotation properties \\
+\hline
+{\em type} & The annotation type \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The newly initialized \hyperlink{interface_a_p_d_f_annotation}{A\-P\-D\-F\-Annotation} 
+\end{DoxyReturn}
+
+
+\subsection{Property Documentation}
+\hypertarget{interface_a_p_d_f_annotation_a0151ed813f0043344ffc890de7f3d000}{\index{A\-P\-D\-F\-Annotation@{A\-P\-D\-F\-Annotation}!annotation\-Type@{annotation\-Type}}
+\index{annotation\-Type@{annotation\-Type}!APDFAnnotation@{A\-P\-D\-F\-Annotation}}
+\subsubsection[{annotation\-Type}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String$\ast$) annotation\-Type\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_annotation_a0151ed813f0043344ffc890de7f3d000}
+Defines the type of the annotation. In this version only the three types\-: Free\-Text, Highlight and Square are supported \hypertarget{interface_a_p_d_f_annotation_aa2b404a57629cd6728d4a59d3e762fb7}{\index{A\-P\-D\-F\-Annotation@{A\-P\-D\-F\-Annotation}!annotation\-View@{annotation\-View}}
+\index{annotation\-View@{annotation\-View}!APDFAnnotation@{A\-P\-D\-F\-Annotation}}
+\subsubsection[{annotation\-View}]{\setlength{\rightskip}{0pt plus 5cm}-\/ ({\bf Resizable\-Text\-View}$\ast$) annotation\-View\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_annotation_aa2b404a57629cd6728d4a59d3e762fb7}
+The view showing the annoatation. For Square and Highlight annotations there is simply no text \hypertarget{interface_a_p_d_f_annotation_a9cab5deed33c003423446b122356a8f6}{\index{A\-P\-D\-F\-Annotation@{A\-P\-D\-F\-Annotation}!annot\-Color@{annot\-Color}}
+\index{annot\-Color@{annot\-Color}!APDFAnnotation@{A\-P\-D\-F\-Annotation}}
+\subsubsection[{annot\-Color}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (U\-I\-Color$\ast$) annot\-Color\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_annotation_a9cab5deed33c003423446b122356a8f6}
+The color of a Square or Highlight annotation \hypertarget{interface_a_p_d_f_annotation_a835dbd5060e5a2c982ed3da97d2a90de}{\index{A\-P\-D\-F\-Annotation@{A\-P\-D\-F\-Annotation}!border\-Width@{border\-Width}}
+\index{border\-Width@{border\-Width}!APDFAnnotation@{A\-P\-D\-F\-Annotation}}
+\subsubsection[{border\-Width}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (C\-G\-Float) border\-Width\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [atomic]}}}\label{interface_a_p_d_f_annotation_a835dbd5060e5a2c982ed3da97d2a90de}
+The border Width of a Square or Free\-Text annotation. If the Free\-Text annotation is without border this value should be 0 \hypertarget{interface_a_p_d_f_annotation_a9c2cdd317cf382753204627ee4fed4fb}{\index{A\-P\-D\-F\-Annotation@{A\-P\-D\-F\-Annotation}!font@{font}}
+\index{font@{font}!APDFAnnotation@{A\-P\-D\-F\-Annotation}}
+\subsubsection[{font}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (U\-I\-Font$\ast$) font\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_annotation_a9c2cdd317cf382753204627ee4fed4fb}
+Defines the font of a Free\-Text annotation. If no font is defined as default font will be used \mbox{[}U\-I\-Font font\-With\-Name\-:"Helvetica" size\-:13\mbox{]} \hypertarget{interface_a_p_d_f_annotation_afaac76ef1a7c19ee46e05315828f3283}{\index{A\-P\-D\-F\-Annotation@{A\-P\-D\-F\-Annotation}!text\-Alignment@{text\-Alignment}}
+\index{text\-Alignment@{text\-Alignment}!APDFAnnotation@{A\-P\-D\-F\-Annotation}}
+\subsubsection[{text\-Alignment}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (U\-I\-Text\-Alignment) text\-Alignment\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [atomic]}}}\label{interface_a_p_d_f_annotation_afaac76ef1a7c19ee46e05315828f3283}
+The alignment of a the text in a Free\-Text annotation \hypertarget{interface_a_p_d_f_annotation_a2d67df8bfd2b3d4182ee5a88a6e916ff}{\index{A\-P\-D\-F\-Annotation@{A\-P\-D\-F\-Annotation}!text\-Color@{text\-Color}}
+\index{text\-Color@{text\-Color}!APDFAnnotation@{A\-P\-D\-F\-Annotation}}
+\subsubsection[{text\-Color}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (U\-I\-Color$\ast$) text\-Color\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_annotation_a2d67df8bfd2b3d4182ee5a88a6e916ff}
+The text color of a Free\-Text annotation \hypertarget{interface_a_p_d_f_annotation_ac7a9328cd7302940ddfbe3cbe79cb7ee}{\index{A\-P\-D\-F\-Annotation@{A\-P\-D\-F\-Annotation}!text\-String@{text\-String}}
+\index{text\-String@{text\-String}!APDFAnnotation@{A\-P\-D\-F\-Annotation}}
+\subsubsection[{text\-String}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String$\ast$) text\-String\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_annotation_ac7a9328cd7302940ddfbe3cbe79cb7ee}
+The text of a Free\-Text annotation 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+Annotate\-P\-D\-F/\hyperlink{_a_p_d_f_annotation_8h}{A\-P\-D\-F\-Annotation.\-h}\item 
+Annotate\-P\-D\-F/\hyperlink{_a_p_d_f_annotation_8m}{A\-P\-D\-F\-Annotation.\-m}\end{DoxyCompactItemize}

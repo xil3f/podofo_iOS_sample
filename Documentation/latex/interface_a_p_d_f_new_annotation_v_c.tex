@@ -1,0 +1,135 @@
+\hypertarget{interface_a_p_d_f_new_annotation_v_c}{\section{A\-P\-D\-F\-New\-Annotation\-V\-C Class Reference}
+\label{interface_a_p_d_f_new_annotation_v_c}\index{A\-P\-D\-F\-New\-Annotation\-V\-C@{A\-P\-D\-F\-New\-Annotation\-V\-C}}
+}
+
+
+{\ttfamily \#import $<$A\-P\-D\-F\-New\-Annotation\-V\-C.\-h$>$}
+
+Inheritance diagram for A\-P\-D\-F\-New\-Annotation\-V\-C\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_a_p_d_f_new_annotation_v_c}
+\end{center}
+\end{figure}
+\subsection*{Instance Methods}
+\begin{DoxyCompactItemize}
+\item 
+(I\-B\-Action) -\/ \hyperlink{interface_a_p_d_f_new_annotation_v_c_ab714d4076f3aefb2235368d88278c7b8}{color\-Selected\-:}
+\item 
+(I\-B\-Action) -\/ \hyperlink{interface_a_p_d_f_new_annotation_v_c_afeec794d0d7686edabba1ec6363a2cd8}{selected\-Segment\-Changed\-:}
+\item 
+(I\-B\-Action) -\/ \hyperlink{interface_a_p_d_f_new_annotation_v_c_a3a63d26b6d752008566d0eea90a32d17}{border\-Switch\-Changed\-:}
+\item 
+(void) -\/ \hyperlink{interface_a_p_d_f_new_annotation_v_c_a5b3794f4bd1e1a3edadd61affd9fff9c}{init\-U\-I\-Elements}
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+I\-B\-Outlet U\-I\-Segmented\-Control $\ast$ \hyperlink{interface_a_p_d_f_new_annotation_v_c_a70602e9005fc6e7982fa2ba5b4a58849}{segmented\-Control}
+\item 
+I\-B\-Outlet U\-I\-Table\-View\-Cell $\ast$ \hyperlink{interface_a_p_d_f_new_annotation_v_c_a8691cbdfc67a5e5cc3ba78374d52ecd7}{color\-Cell}
+\item 
+I\-B\-Outlet U\-I\-Table\-View\-Cell $\ast$ \hyperlink{interface_a_p_d_f_new_annotation_v_c_a4d80f8e6c0a7807ae6270cdbd6de1623}{border\-Switch\-Cell}
+\item 
+I\-B\-Outlet U\-I\-Table\-View\-Cell $\ast$ \hyperlink{interface_a_p_d_f_new_annotation_v_c_af31c685f4c9573a4e1149e36c8d0ece6}{border\-Width\-Cell}
+\item 
+I\-B\-Outlet U\-I\-Switch $\ast$ \hyperlink{interface_a_p_d_f_new_annotation_v_c_aa14411e7f7852ef499f4de84bec045e9}{border\-Switch}
+\item 
+I\-B\-Outlet U\-I\-Text\-Field $\ast$ \hyperlink{interface_a_p_d_f_new_annotation_v_c_ab9d6df4725587308fbe5505fe8af68a2}{border\-Width\-Text\-Field}
+\item 
+N\-S\-String $\ast$ \hyperlink{interface_a_p_d_f_new_annotation_v_c_a8c445f9910a0303436b5792cf3ea28b0}{annot\-Type}
+\item 
+N\-S\-Number $\ast$ \hyperlink{interface_a_p_d_f_new_annotation_v_c_a15b2901fa1fa2caa4e405c858f47f723}{with\-Border}
+\item 
+N\-S\-Number $\ast$ \hyperlink{interface_a_p_d_f_new_annotation_v_c_ad02ce736928f04d5a2d7914786c606d6}{border\-Width}
+\item 
+U\-I\-Color $\ast$ \hyperlink{interface_a_p_d_f_new_annotation_v_c_a2ef116193c8d363b5dfa8d8a748e753b}{annot\-Color}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A View Controller that holds the current parameters for a new Annotation. It is designed for being presented in a Popover. It lets the user change the parameters for a new Annotation. 
+
+\subsection{Method Documentation}
+\hypertarget{interface_a_p_d_f_new_annotation_v_c_a3a63d26b6d752008566d0eea90a32d17}{\index{A\-P\-D\-F\-New\-Annotation\-V\-C@{A\-P\-D\-F\-New\-Annotation\-V\-C}!border\-Switch\-Changed\-:@{border\-Switch\-Changed\-:}}
+\index{border\-Switch\-Changed\-:@{border\-Switch\-Changed\-:}!APDFNewAnnotationVC@{A\-P\-D\-F\-New\-Annotation\-V\-C}}
+\subsubsection[{border\-Switch\-Changed\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) border\-Switch\-Changed\-: 
+\begin{DoxyParamCaption}
+\item[{(id)}]{sender}
+\end{DoxyParamCaption}
+}}\label{interface_a_p_d_f_new_annotation_v_c_a3a63d26b6d752008566d0eea90a32d17}
+Selects if the border is on or off. It is called when the border switch changed. Performed by an I\-B\-Action. 
+\begin{DoxyParams}{Parameters}
+{\em sender} & The U\-I\-Switch that changed \\
+\hline
+\end{DoxyParams}
+\hypertarget{interface_a_p_d_f_new_annotation_v_c_ab714d4076f3aefb2235368d88278c7b8}{\index{A\-P\-D\-F\-New\-Annotation\-V\-C@{A\-P\-D\-F\-New\-Annotation\-V\-C}!color\-Selected\-:@{color\-Selected\-:}}
+\index{color\-Selected\-:@{color\-Selected\-:}!APDFNewAnnotationVC@{A\-P\-D\-F\-New\-Annotation\-V\-C}}
+\subsubsection[{color\-Selected\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) color\-Selected\-: 
+\begin{DoxyParamCaption}
+\item[{(id)}]{sender}
+\end{DoxyParamCaption}
+}}\label{interface_a_p_d_f_new_annotation_v_c_ab714d4076f3aefb2235368d88278c7b8}
+Selects the color of the specified U\-I\-Button sender. Performed by an I\-B\-Action. 
+\begin{DoxyParams}{Parameters}
+{\em sender} & The U\-I\-Button that is pressed \\
+\hline
+\end{DoxyParams}
+\hypertarget{interface_a_p_d_f_new_annotation_v_c_a5b3794f4bd1e1a3edadd61affd9fff9c}{\index{A\-P\-D\-F\-New\-Annotation\-V\-C@{A\-P\-D\-F\-New\-Annotation\-V\-C}!init\-U\-I\-Elements@{init\-U\-I\-Elements}}
+\index{init\-U\-I\-Elements@{init\-U\-I\-Elements}!APDFNewAnnotationVC@{A\-P\-D\-F\-New\-Annotation\-V\-C}}
+\subsubsection[{init\-U\-I\-Elements}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) init\-U\-I\-Elements 
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+}}\label{interface_a_p_d_f_new_annotation_v_c_a5b3794f4bd1e1a3edadd61affd9fff9c}
+Initializes the U\-I elements to show the stored values of annot\-Type, with\-Border, border\-Width, annot\-Color \hypertarget{interface_a_p_d_f_new_annotation_v_c_afeec794d0d7686edabba1ec6363a2cd8}{\index{A\-P\-D\-F\-New\-Annotation\-V\-C@{A\-P\-D\-F\-New\-Annotation\-V\-C}!selected\-Segment\-Changed\-:@{selected\-Segment\-Changed\-:}}
+\index{selected\-Segment\-Changed\-:@{selected\-Segment\-Changed\-:}!APDFNewAnnotationVC@{A\-P\-D\-F\-New\-Annotation\-V\-C}}
+\subsubsection[{selected\-Segment\-Changed\-:}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (void) selected\-Segment\-Changed\-: 
+\begin{DoxyParamCaption}
+\item[{(id)}]{sender}
+\end{DoxyParamCaption}
+}}\label{interface_a_p_d_f_new_annotation_v_c_afeec794d0d7686edabba1ec6363a2cd8}
+Selects the new Annotation type segment specified by U\-I\-Segmented\-Control sender. Performed by an I\-B\-Action. 
+\begin{DoxyParams}{Parameters}
+{\em sender} & The U\-I\-Segmented\-Control that is pressed \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Property Documentation}
+\hypertarget{interface_a_p_d_f_new_annotation_v_c_a2ef116193c8d363b5dfa8d8a748e753b}{\index{A\-P\-D\-F\-New\-Annotation\-V\-C@{A\-P\-D\-F\-New\-Annotation\-V\-C}!annot\-Color@{annot\-Color}}
+\index{annot\-Color@{annot\-Color}!APDFNewAnnotationVC@{A\-P\-D\-F\-New\-Annotation\-V\-C}}
+\subsubsection[{annot\-Color}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (U\-I\-Color$\ast$) annot\-Color\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_new_annotation_v_c_a2ef116193c8d363b5dfa8d8a748e753b}
+The color of the new Annotation \hypertarget{interface_a_p_d_f_new_annotation_v_c_a8c445f9910a0303436b5792cf3ea28b0}{\index{A\-P\-D\-F\-New\-Annotation\-V\-C@{A\-P\-D\-F\-New\-Annotation\-V\-C}!annot\-Type@{annot\-Type}}
+\index{annot\-Type@{annot\-Type}!APDFNewAnnotationVC@{A\-P\-D\-F\-New\-Annotation\-V\-C}}
+\subsubsection[{annot\-Type}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-String$\ast$) annot\-Type\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_new_annotation_v_c_a8c445f9910a0303436b5792cf3ea28b0}
+A string holding the current type for a new Annotation \hypertarget{interface_a_p_d_f_new_annotation_v_c_aa14411e7f7852ef499f4de84bec045e9}{\index{A\-P\-D\-F\-New\-Annotation\-V\-C@{A\-P\-D\-F\-New\-Annotation\-V\-C}!border\-Switch@{border\-Switch}}
+\index{border\-Switch@{border\-Switch}!APDFNewAnnotationVC@{A\-P\-D\-F\-New\-Annotation\-V\-C}}
+\subsubsection[{border\-Switch}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (I\-B\-Outlet U\-I\-Switch$\ast$) border\-Switch\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_new_annotation_v_c_aa14411e7f7852ef499f4de84bec045e9}
+The Switch to activate/deactivate the annotation border in G\-U\-I \hypertarget{interface_a_p_d_f_new_annotation_v_c_a4d80f8e6c0a7807ae6270cdbd6de1623}{\index{A\-P\-D\-F\-New\-Annotation\-V\-C@{A\-P\-D\-F\-New\-Annotation\-V\-C}!border\-Switch\-Cell@{border\-Switch\-Cell}}
+\index{border\-Switch\-Cell@{border\-Switch\-Cell}!APDFNewAnnotationVC@{A\-P\-D\-F\-New\-Annotation\-V\-C}}
+\subsubsection[{border\-Switch\-Cell}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (I\-B\-Outlet U\-I\-Table\-View\-Cell$\ast$) border\-Switch\-Cell\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_new_annotation_v_c_a4d80f8e6c0a7807ae6270cdbd6de1623}
+The Table\-View\-Cell holding the Swich to activate/deactivate the annotation border in G\-U\-I \hypertarget{interface_a_p_d_f_new_annotation_v_c_ad02ce736928f04d5a2d7914786c606d6}{\index{A\-P\-D\-F\-New\-Annotation\-V\-C@{A\-P\-D\-F\-New\-Annotation\-V\-C}!border\-Width@{border\-Width}}
+\index{border\-Width@{border\-Width}!APDFNewAnnotationVC@{A\-P\-D\-F\-New\-Annotation\-V\-C}}
+\subsubsection[{border\-Width}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Number$\ast$) border\-Width\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_new_annotation_v_c_ad02ce736928f04d5a2d7914786c606d6}
+N\-S\-Number with double value of the border\-Width \hypertarget{interface_a_p_d_f_new_annotation_v_c_af31c685f4c9573a4e1149e36c8d0ece6}{\index{A\-P\-D\-F\-New\-Annotation\-V\-C@{A\-P\-D\-F\-New\-Annotation\-V\-C}!border\-Width\-Cell@{border\-Width\-Cell}}
+\index{border\-Width\-Cell@{border\-Width\-Cell}!APDFNewAnnotationVC@{A\-P\-D\-F\-New\-Annotation\-V\-C}}
+\subsubsection[{border\-Width\-Cell}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (I\-B\-Outlet U\-I\-Table\-View\-Cell$\ast$) border\-Width\-Cell\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_new_annotation_v_c_af31c685f4c9573a4e1149e36c8d0ece6}
+The Table\-View\-Cell holding the Text Field defining the border Width in G\-U\-I \hypertarget{interface_a_p_d_f_new_annotation_v_c_ab9d6df4725587308fbe5505fe8af68a2}{\index{A\-P\-D\-F\-New\-Annotation\-V\-C@{A\-P\-D\-F\-New\-Annotation\-V\-C}!border\-Width\-Text\-Field@{border\-Width\-Text\-Field}}
+\index{border\-Width\-Text\-Field@{border\-Width\-Text\-Field}!APDFNewAnnotationVC@{A\-P\-D\-F\-New\-Annotation\-V\-C}}
+\subsubsection[{border\-Width\-Text\-Field}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (I\-B\-Outlet U\-I\-Text\-Field$\ast$) border\-Width\-Text\-Field\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_new_annotation_v_c_ab9d6df4725587308fbe5505fe8af68a2}
+Text\-Field defining the border width in G\-U\-I \hypertarget{interface_a_p_d_f_new_annotation_v_c_a8691cbdfc67a5e5cc3ba78374d52ecd7}{\index{A\-P\-D\-F\-New\-Annotation\-V\-C@{A\-P\-D\-F\-New\-Annotation\-V\-C}!color\-Cell@{color\-Cell}}
+\index{color\-Cell@{color\-Cell}!APDFNewAnnotationVC@{A\-P\-D\-F\-New\-Annotation\-V\-C}}
+\subsubsection[{color\-Cell}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (I\-B\-Outlet U\-I\-Table\-View\-Cell$\ast$) color\-Cell\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_new_annotation_v_c_a8691cbdfc67a5e5cc3ba78374d52ecd7}
+The Table\-View\-Cell holding the color picker in G\-U\-I \hypertarget{interface_a_p_d_f_new_annotation_v_c_a70602e9005fc6e7982fa2ba5b4a58849}{\index{A\-P\-D\-F\-New\-Annotation\-V\-C@{A\-P\-D\-F\-New\-Annotation\-V\-C}!segmented\-Control@{segmented\-Control}}
+\index{segmented\-Control@{segmented\-Control}!APDFNewAnnotationVC@{A\-P\-D\-F\-New\-Annotation\-V\-C}}
+\subsubsection[{segmented\-Control}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (I\-B\-Outlet U\-I\-Segmented\-Control$\ast$) segmented\-Control\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_new_annotation_v_c_a70602e9005fc6e7982fa2ba5b4a58849}
+Annotation type Segmented Control in G\-U\-I \hypertarget{interface_a_p_d_f_new_annotation_v_c_a15b2901fa1fa2caa4e405c858f47f723}{\index{A\-P\-D\-F\-New\-Annotation\-V\-C@{A\-P\-D\-F\-New\-Annotation\-V\-C}!with\-Border@{with\-Border}}
+\index{with\-Border@{with\-Border}!APDFNewAnnotationVC@{A\-P\-D\-F\-New\-Annotation\-V\-C}}
+\subsubsection[{with\-Border}]{\setlength{\rightskip}{0pt plus 5cm}-\/ (N\-S\-Number$\ast$) with\-Border\hspace{0.3cm}{\ttfamily [read]}, {\ttfamily [write]}, {\ttfamily [nonatomic]}, {\ttfamily [retain]}}}\label{interface_a_p_d_f_new_annotation_v_c_a15b2901fa1fa2caa4e405c858f47f723}
+N\-S\-Number with B\-O\-O\-L value if border is on or off 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+Annotate\-P\-D\-F/\hyperlink{_a_p_d_f_new_annotation_v_c_8h}{A\-P\-D\-F\-New\-Annotation\-V\-C.\-h}\item 
+Annotate\-P\-D\-F/\hyperlink{_a_p_d_f_new_annotation_v_c_8m}{A\-P\-D\-F\-New\-Annotation\-V\-C.\-m}\end{DoxyCompactItemize}

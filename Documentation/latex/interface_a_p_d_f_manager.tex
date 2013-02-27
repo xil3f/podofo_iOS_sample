@@ -1,0 +1,203 @@
+\hypertarget{interface_a_p_d_f_manager}{\section{A\-P\-D\-F\-Manager Class Reference}
+\label{interface_a_p_d_f_manager}\index{A\-P\-D\-F\-Manager@{A\-P\-D\-F\-Manager}}
+}
+
+
+{\ttfamily \#import $<$A\-P\-D\-F\-Manager.\-h$>$}
+
+Inheritance diagram for A\-P\-D\-F\-Manager\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_a_p_d_f_manager}
+\end{center}
+\end{figure}
+\subsection*{Class Methods}
+\begin{DoxyCompactItemize}
+\item 
+(void) + \hyperlink{interface_a_p_d_f_manager_ae7b63b7251ff02456aefd5bb88ff3133}{create\-Free\-Text\-Annotation\-On\-Page\-:doc\-:rect\-:border\-Width\-:title\-:content\-:b\-Open\-:color\-:}
+\item 
+(void) + \hyperlink{interface_a_p_d_f_manager_a423ccf0d14b8dfd3e5248eddd917cfd2}{create\-Square\-Annotation\-On\-Page\-:doc\-:rect\-:border\-Width\-:title\-:b\-Open\-:color\-:}
+\item 
+(void) + \hyperlink{interface_a_p_d_f_manager_a37b257ca0c98017a4685056aab000c5b}{delete\-Annotation\-With\-Index\-:on\-Page\-:of\-Doc\-:}
+\item 
+(Pdf\-Mem\-Document $\ast$) + \hyperlink{interface_a_p_d_f_manager_a62bcf992714cbe89528ffe5d64775174}{create\-Pdf\-For\-File\-At\-Path\-:}
+\item 
+(N\-S\-String $\ast$) + \hyperlink{interface_a_p_d_f_manager_aba5874a0ee2f103062025d6b520f5d83}{create\-Copy\-For\-File\-:}
+\item 
+(void) + \hyperlink{interface_a_p_d_f_manager_a663468ddda29b1b5a3c154562c6dafa6}{write\-Pdf\-:to\-Path\-:with\-Temporary\-File\-Path\-:}
+\item 
+(N\-S\-Mutable\-Array $\ast$) + \hyperlink{interface_a_p_d_f_manager_ad924b47d2d56c43a886a221abb007980}{get\-Annotations\-Array\-For\-Page\-:}
+\item 
+(N\-S\-Array $\ast$) + \hyperlink{interface_a_p_d_f_manager_a0d5aaff8461d095d3d929738a32cbf0d}{get\-Pdf\-Paths\-Of\-Array\-:}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Provides class methods that are used for P\-D\-F file/annotation creation and manipulation. For the manipulation the Po\-Do\-Fo library is used 
+
+\subsection{Method Documentation}
+\hypertarget{interface_a_p_d_f_manager_aba5874a0ee2f103062025d6b520f5d83}{\index{A\-P\-D\-F\-Manager@{A\-P\-D\-F\-Manager}!create\-Copy\-For\-File\-:@{create\-Copy\-For\-File\-:}}
+\index{create\-Copy\-For\-File\-:@{create\-Copy\-For\-File\-:}!APDFManager@{A\-P\-D\-F\-Manager}}
+\subsubsection[{create\-Copy\-For\-File\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (N\-S\-String $\ast$) create\-Copy\-For\-File\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{path}
+\end{DoxyParamCaption}
+}}\label{interface_a_p_d_f_manager_aba5874a0ee2f103062025d6b520f5d83}
+Creates a temporary file with the extension .apdf that is a copy of the P\-D\-F file at the specified filepath and returns the path to the temporary file. This is necessary to perform saving of the P\-D\-F file because Po\-Do\-Fo is not able to save back to the original file. 
+\begin{DoxyParams}{Parameters}
+{\em path} & The filepath of the file to copy \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The filepath of the temporary copy 
+\end{DoxyReturn}
+\hypertarget{interface_a_p_d_f_manager_ae7b63b7251ff02456aefd5bb88ff3133}{\index{A\-P\-D\-F\-Manager@{A\-P\-D\-F\-Manager}!create\-Free\-Text\-Annotation\-On\-Page\-:doc\-:rect\-:border\-Width\-:title\-:content\-:b\-Open\-:color\-:@{create\-Free\-Text\-Annotation\-On\-Page\-:doc\-:rect\-:border\-Width\-:title\-:content\-:b\-Open\-:color\-:}}
+\index{create\-Free\-Text\-Annotation\-On\-Page\-:doc\-:rect\-:border\-Width\-:title\-:content\-:b\-Open\-:color\-:@{create\-Free\-Text\-Annotation\-On\-Page\-:doc\-:rect\-:border\-Width\-:title\-:content\-:b\-Open\-:color\-:}!APDFManager@{A\-P\-D\-F\-Manager}}
+\subsubsection[{create\-Free\-Text\-Annotation\-On\-Page\-:doc\-:rect\-:border\-Width\-:title\-:content\-:b\-Open\-:color\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (void) create\-Free\-Text\-Annotation\-On\-Page\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Integer)}]{page\-Index}
+\item[{doc:(Pdf\-Mem\-Document$\ast$)}]{a\-Doc}
+\item[{rect:(C\-G\-Rect)}]{a\-Rect}
+\item[{borderWidth:(double)}]{b\-Width}
+\item[{title:(N\-S\-String$\ast$)}]{title}
+\item[{content:(N\-S\-String$\ast$)}]{content}
+\item[{bOpen:(Boolean)}]{b\-Open}
+\item[{color:(U\-I\-Color$\ast$)}]{color}
+\end{DoxyParamCaption}
+}}\label{interface_a_p_d_f_manager_ae7b63b7251ff02456aefd5bb88ff3133}
+Creates a Free\-Text annotaion for the specified page of a specified Document with the specified parameters and saves the annotation directly into the P\-D\-F file 
+\begin{DoxyParams}{Parameters}
+{\em page\-Index} & The index of the page in the pdf starting with 0 \\
+\hline
+{\em a\-Doc} & The Po\-Do\-Fo\-::\-Pdf\-Mem\-Document that specifies the P\-D\-F file \\
+\hline
+{\em a\-Rect} & The C\-G\-Rect that defines the position and size of the annotation in the P\-D\-F file \\
+\hline
+{\em b\-Width} & The border width of the Annotation. Has to be 0 if no border should be there \\
+\hline
+{\em title} & The title of the new P\-D\-F annotation \\
+\hline
+{\em content} & The text of the Free\-Text annotation \\
+\hline
+{\em b\-Open} & Defines if the Annotation should be opend (shown) immediatly \\
+\hline
+{\em color} & The U\-I\-Color of the Annotation. In this version only black Free\-Text Annotations are possible \\
+\hline
+\end{DoxyParams}
+\hypertarget{interface_a_p_d_f_manager_a62bcf992714cbe89528ffe5d64775174}{\index{A\-P\-D\-F\-Manager@{A\-P\-D\-F\-Manager}!create\-Pdf\-For\-File\-At\-Path\-:@{create\-Pdf\-For\-File\-At\-Path\-:}}
+\index{create\-Pdf\-For\-File\-At\-Path\-:@{create\-Pdf\-For\-File\-At\-Path\-:}!APDFManager@{A\-P\-D\-F\-Manager}}
+\subsubsection[{create\-Pdf\-For\-File\-At\-Path\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (Pdf\-Mem\-Document $\ast$) create\-Pdf\-For\-File\-At\-Path\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-String$\ast$)}]{path}
+\end{DoxyParamCaption}
+}}\label{interface_a_p_d_f_manager_a62bcf992714cbe89528ffe5d64775174}
+Creates a Po\-Do\-Fo\-::\-Pdf\-Mem\-Document for a P\-D\-F file at the specified filepath 
+\begin{DoxyParams}{Parameters}
+{\em path} & The filepath of the P\-D\-F file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The created Po\-Do\-Fo\-::\-Pdf\-Mem\-Document representing the P\-D\-F file 
+\end{DoxyReturn}
+\hypertarget{interface_a_p_d_f_manager_a423ccf0d14b8dfd3e5248eddd917cfd2}{\index{A\-P\-D\-F\-Manager@{A\-P\-D\-F\-Manager}!create\-Square\-Annotation\-On\-Page\-:doc\-:rect\-:border\-Width\-:title\-:b\-Open\-:color\-:@{create\-Square\-Annotation\-On\-Page\-:doc\-:rect\-:border\-Width\-:title\-:b\-Open\-:color\-:}}
+\index{create\-Square\-Annotation\-On\-Page\-:doc\-:rect\-:border\-Width\-:title\-:b\-Open\-:color\-:@{create\-Square\-Annotation\-On\-Page\-:doc\-:rect\-:border\-Width\-:title\-:b\-Open\-:color\-:}!APDFManager@{A\-P\-D\-F\-Manager}}
+\subsubsection[{create\-Square\-Annotation\-On\-Page\-:doc\-:rect\-:border\-Width\-:title\-:b\-Open\-:color\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (void) create\-Square\-Annotation\-On\-Page\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Integer)}]{page\-Index}
+\item[{doc:(Pdf\-Mem\-Document$\ast$)}]{a\-Doc}
+\item[{rect:(C\-G\-Rect)}]{a\-Rect}
+\item[{borderWidth:(double)}]{b\-Width}
+\item[{title:(N\-S\-String$\ast$)}]{title}
+\item[{bOpen:(Boolean)}]{b\-Open}
+\item[{color:(U\-I\-Color$\ast$)}]{color}
+\end{DoxyParamCaption}
+}}\label{interface_a_p_d_f_manager_a423ccf0d14b8dfd3e5248eddd917cfd2}
+Creates a Square annotaion for the specified page of a specified Document with the specified parameters and saves the annotation directly into the P\-D\-F file 
+\begin{DoxyParams}{Parameters}
+{\em page\-Index} & The index of the page in the pdf starting with 0 \\
+\hline
+{\em a\-Doc} & The Po\-Do\-Fo\-::\-Pdf\-Mem\-Document that specifies the P\-D\-F file \\
+\hline
+{\em a\-Rect} & The C\-G\-Rect that defines the position and size of the annotation in the P\-D\-F file \\
+\hline
+{\em b\-Width} & The border width of the Annotation. The Value cannot be 0 for Square annotations. If it is zero, the value will be set to 1.\-0 by default \\
+\hline
+{\em title} & The title of the new P\-D\-F annotation \\
+\hline
+{\em b\-Open} & Defines if the Annotation should be opend (shown) immediatly \\
+\hline
+{\em color} & The U\-I\-Color of the Annotation \\
+\hline
+\end{DoxyParams}
+\hypertarget{interface_a_p_d_f_manager_a37b257ca0c98017a4685056aab000c5b}{\index{A\-P\-D\-F\-Manager@{A\-P\-D\-F\-Manager}!delete\-Annotation\-With\-Index\-:on\-Page\-:of\-Doc\-:@{delete\-Annotation\-With\-Index\-:on\-Page\-:of\-Doc\-:}}
+\index{delete\-Annotation\-With\-Index\-:on\-Page\-:of\-Doc\-:@{delete\-Annotation\-With\-Index\-:on\-Page\-:of\-Doc\-:}!APDFManager@{A\-P\-D\-F\-Manager}}
+\subsubsection[{delete\-Annotation\-With\-Index\-:on\-Page\-:of\-Doc\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (void) delete\-Annotation\-With\-Index\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Integer)}]{annot\-Index}
+\item[{onPage:(N\-S\-Integer)}]{page\-Index}
+\item[{ofDoc:(Pdf\-Mem\-Document$\ast$)}]{doc}
+\end{DoxyParamCaption}
+}}\label{interface_a_p_d_f_manager_a37b257ca0c98017a4685056aab000c5b}
+Deletes the Annotation at the specified index for the specified page of a specified Document. The annotation is directly deleted from the Document and the Document gets saved 
+\begin{DoxyParams}{Parameters}
+{\em annot\-Index} & The index of the annotation in the Annotatins Array of a Document \\
+\hline
+{\em page\-Index} & The index of the page in the pdf starting with 0 \\
+\hline
+{\em doc} & The Po\-Do\-Fo\-::\-Pdf\-Mem\-Document that specifies the P\-D\-F file \\
+\hline
+\end{DoxyParams}
+\hypertarget{interface_a_p_d_f_manager_ad924b47d2d56c43a886a221abb007980}{\index{A\-P\-D\-F\-Manager@{A\-P\-D\-F\-Manager}!get\-Annotations\-Array\-For\-Page\-:@{get\-Annotations\-Array\-For\-Page\-:}}
+\index{get\-Annotations\-Array\-For\-Page\-:@{get\-Annotations\-Array\-For\-Page\-:}!APDFManager@{A\-P\-D\-F\-Manager}}
+\subsubsection[{get\-Annotations\-Array\-For\-Page\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (N\-S\-Mutable\-Array $\ast$) get\-Annotations\-Array\-For\-Page\-: 
+\begin{DoxyParamCaption}
+\item[{(C\-G\-P\-D\-F\-Page\-Ref)}]{p\-Page}
+\end{DoxyParamCaption}
+}}\label{interface_a_p_d_f_manager_ad924b47d2d56c43a886a221abb007980}
+Reads the Annotations of a specified P\-D\-F page and returns the Annotations in an Array 
+\begin{DoxyParams}{Parameters}
+{\em p\-Page} & The reference to a P\-D\-F page \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An Array that holds the Annotations of the specified P\-D\-F page 
+\end{DoxyReturn}
+\hypertarget{interface_a_p_d_f_manager_a0d5aaff8461d095d3d929738a32cbf0d}{\index{A\-P\-D\-F\-Manager@{A\-P\-D\-F\-Manager}!get\-Pdf\-Paths\-Of\-Array\-:@{get\-Pdf\-Paths\-Of\-Array\-:}}
+\index{get\-Pdf\-Paths\-Of\-Array\-:@{get\-Pdf\-Paths\-Of\-Array\-:}!APDFManager@{A\-P\-D\-F\-Manager}}
+\subsubsection[{get\-Pdf\-Paths\-Of\-Array\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (N\-S\-Array $\ast$) get\-Pdf\-Paths\-Of\-Array\-: 
+\begin{DoxyParamCaption}
+\item[{(N\-S\-Array$\ast$)}]{paths}
+\end{DoxyParamCaption}
+}}\label{interface_a_p_d_f_manager_a0d5aaff8461d095d3d929738a32cbf0d}
+Filters a path Array, so that only paths of P\-D\-F files remain 
+\begin{DoxyParams}{Parameters}
+{\em paths} & The Array with several paths \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An Array with only paths to P\-D\-F files 
+\end{DoxyReturn}
+\hypertarget{interface_a_p_d_f_manager_a663468ddda29b1b5a3c154562c6dafa6}{\index{A\-P\-D\-F\-Manager@{A\-P\-D\-F\-Manager}!write\-Pdf\-:to\-Path\-:with\-Temporary\-File\-Path\-:@{write\-Pdf\-:to\-Path\-:with\-Temporary\-File\-Path\-:}}
+\index{write\-Pdf\-:to\-Path\-:with\-Temporary\-File\-Path\-:@{write\-Pdf\-:to\-Path\-:with\-Temporary\-File\-Path\-:}!APDFManager@{A\-P\-D\-F\-Manager}}
+\subsubsection[{write\-Pdf\-:to\-Path\-:with\-Temporary\-File\-Path\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (void) write\-Pdf\-: 
+\begin{DoxyParamCaption}
+\item[{(Pdf\-Mem\-Document$\ast$)}]{a\-Doc}
+\item[{toPath:(N\-S\-String$\ast$)}]{path}
+\item[{withTemporaryFilePath:(N\-S\-String$\ast$)}]{tmp\-Path}
+\end{DoxyParamCaption}
+}}\label{interface_a_p_d_f_manager_a663468ddda29b1b5a3c154562c6dafa6}
+Saves a specified Po\-Do\-Fo\-::\-Pdf\-Mem\-Document to P\-D\-F file in the shared Documents directory 
+\begin{DoxyParams}{Parameters}
+{\em a\-Doc} & The Po\-Do\-Fo\-::\-Pdf\-Mem\-Document that specifies the P\-D\-F file \\
+\hline
+{\em path} & The path where the P\-D\-F file should be stored \\
+\hline
+{\em tmp\-Path} & The path of the temporary copy of the P\-D\-F file \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+Annotate\-P\-D\-F/\hyperlink{_a_p_d_f_manager_8h}{A\-P\-D\-F\-Manager.\-h}\item 
+Annotate\-P\-D\-F/\hyperlink{_a_p_d_f_manager_8mm}{A\-P\-D\-F\-Manager.\-mm}\end{DoxyCompactItemize}

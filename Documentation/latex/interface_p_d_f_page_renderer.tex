@@ -1,0 +1,68 @@
+\hypertarget{interface_p_d_f_page_renderer}{\section{P\-D\-F\-Page\-Renderer Class Reference}
+\label{interface_p_d_f_page_renderer}\index{P\-D\-F\-Page\-Renderer@{P\-D\-F\-Page\-Renderer}}
+}
+
+
+{\ttfamily \#import $<$P\-D\-F\-Page\-Renderer.\-h$>$}
+
+Inheritance diagram for P\-D\-F\-Page\-Renderer\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_p_d_f_page_renderer}
+\end{center}
+\end{figure}
+\subsection*{Class Methods}
+\begin{DoxyCompactItemize}
+\item 
+(void) + \hyperlink{interface_p_d_f_page_renderer_ae5ca0c5890ceaef655708727d05c0859}{render\-Page\-:in\-Context\-:at\-Point\-:with\-Zoom\-:}
+\item 
+(void) + \hyperlink{interface_p_d_f_page_renderer_a382dc31ceff20e3634a6233207f98a4e}{render\-Annotations\-For\-Page\-:in\-Context\-:}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Provides rendering functions for P\-D\-F pages and P\-D\-F annotations 
+
+\subsection{Method Documentation}
+\hypertarget{interface_p_d_f_page_renderer_a382dc31ceff20e3634a6233207f98a4e}{\index{P\-D\-F\-Page\-Renderer@{P\-D\-F\-Page\-Renderer}!render\-Annotations\-For\-Page\-:in\-Context\-:@{render\-Annotations\-For\-Page\-:in\-Context\-:}}
+\index{render\-Annotations\-For\-Page\-:in\-Context\-:@{render\-Annotations\-For\-Page\-:in\-Context\-:}!PDFPageRenderer@{P\-D\-F\-Page\-Renderer}}
+\subsubsection[{render\-Annotations\-For\-Page\-:in\-Context\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (void) render\-Annotations\-For\-Page\-: 
+\begin{DoxyParamCaption}
+\item[{(C\-G\-P\-D\-F\-Page\-Ref)}]{page}
+\item[{inContext:(C\-G\-Context\-Ref)}]{context}
+\end{DoxyParamCaption}
+}}\label{interface_p_d_f_page_renderer_a382dc31ceff20e3634a6233207f98a4e}
+Draws the annotations of a specified page in a specified context 
+\begin{DoxyParams}{Parameters}
+{\em page} & The P\-D\-F page that holds the annotations \\
+\hline
+{\em context} & The context in that the annotations should be drawn \\
+\hline
+\end{DoxyParams}
+\hypertarget{interface_p_d_f_page_renderer_ae5ca0c5890ceaef655708727d05c0859}{\index{P\-D\-F\-Page\-Renderer@{P\-D\-F\-Page\-Renderer}!render\-Page\-:in\-Context\-:at\-Point\-:with\-Zoom\-:@{render\-Page\-:in\-Context\-:at\-Point\-:with\-Zoom\-:}}
+\index{render\-Page\-:in\-Context\-:at\-Point\-:with\-Zoom\-:@{render\-Page\-:in\-Context\-:at\-Point\-:with\-Zoom\-:}!PDFPageRenderer@{P\-D\-F\-Page\-Renderer}}
+\subsubsection[{render\-Page\-:in\-Context\-:at\-Point\-:with\-Zoom\-:}]{\setlength{\rightskip}{0pt plus 5cm}+ (void) render\-Page\-: 
+\begin{DoxyParamCaption}
+\item[{(C\-G\-P\-D\-F\-Page\-Ref)}]{page}
+\item[{inContext:(C\-G\-Context\-Ref)}]{context}
+\item[{atPoint:(C\-G\-Point)}]{point}
+\item[{withZoom:(float)}]{zoom}
+\end{DoxyParamCaption}
+}}\label{interface_p_d_f_page_renderer_ae5ca0c5890ceaef655708727d05c0859}
+Draws a specified P\-D\-F page in a specified context. The drawing beginns at a specified point. The page will be displayed with a specified zoom 
+\begin{DoxyParams}{Parameters}
+{\em page} & The P\-D\-F page that has to be drawn \\
+\hline
+{\em context} & The context in that the page should be drawn \\
+\hline
+{\em point} & The point in the context where the page should start \\
+\hline
+{\em zoom} & The zoom the page should be drawn with \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+Annotate\-P\-D\-F/\hyperlink{_p_d_f_page_renderer_8h}{P\-D\-F\-Page\-Renderer.\-h}\item 
+Annotate\-P\-D\-F/\hyperlink{_p_d_f_page_renderer_8mm}{P\-D\-F\-Page\-Renderer.\-mm}\end{DoxyCompactItemize}
