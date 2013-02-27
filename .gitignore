@@ -35,3 +35,4 @@ build/
 *.pbxuser
 *.perspective
 *.perspectivev3
+*.xcuserstate
