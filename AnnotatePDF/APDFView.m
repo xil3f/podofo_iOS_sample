@@ -50,6 +50,8 @@
         
         pdfScale = 1;
         
+        zoomValues = nil;
+        
         [self setAutoresizingMask:UIViewAutoresizingFlexibleLeftMargin|UIViewAutoresizingFlexibleRightMargin];
     }
     return self;
@@ -129,6 +131,12 @@
     [PDFPageRenderer renderPage:page inContext:ctx atPoint:topLeftPage withZoom:scale * 100];
 
     pdfScale = scale;
+    
+    if(zoomValues != nil){
+        [self restoreScrollViewZoom:zoomValues];
+        [zoomValues release];
+        zoomValues = nil;
+    }
 }
 
 #pragma -
@@ -189,6 +197,11 @@
             annotTextView = nil;
             [self reloadPdf];
             
+            CGFloat tmpZoom = scrollView.zoomScale;
+            CGPoint tmpOffset = scrollView.contentOffset;
+            NSArray* zoomvalues = [NSArray arrayWithObjects:[NSNumber numberWithFloat:tmpZoom], [NSNumber numberWithFloat:tmpOffset.x], [NSNumber numberWithFloat:tmpOffset.y], nil];
+            zoomValues = [zoomvalues retain];
+            
             scrollView.zoomScale = 1.0;
             [self setNeedsDisplay];
             [detailVC reloadAnnotationsVC];
@@ -233,10 +246,16 @@
         [textView removeFromSuperview];
         [self reloadPdf];
         
+        CGFloat tmpZoom = scrollView.zoomScale;
+        CGPoint tmpOffset = scrollView.contentOffset;
+        NSArray* zoomvalues = [NSArray arrayWithObjects:[NSNumber numberWithFloat:tmpZoom], [NSNumber numberWithFloat:tmpOffset.x], [NSNumber numberWithFloat:tmpOffset.y], nil];
+        zoomValues = [zoomvalues retain];
+
         scrollView.zoomScale = 1.0;
         [self setNeedsDisplay];
         if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
             [detailVC reloadAnnotationsVC];
+
         }else if([[UIDevice currentDevice] userInterfaceIdiom]==UIUserInterfaceIdiomPhone){
             annotTextView = nil;
         }
@@ -292,10 +311,9 @@
     frame.size.height = ((aView.frame.size.height) / pdfScale);
     frame.size.width = ((aView.frame.size.width) / pdfScale);
     
-    frame.origin.x = (zoom * aView.frame.origin.x-point.x) * cropBox.size.width / (self.frame.size.width - 2* point.x);
-    frame.origin.y = cropBox.size.height- (zoom * aView.frame.origin.y-point.y) * cropBox.size.height / (self.frame.size.height- 2* point.y)- frame.size.height;
+    frame.origin.x = (aView.frame.origin.x-point.x) * cropBox.size.width / (self.frame.size.width/zoom - 2* point.x);
+    frame.origin.y = cropBox.size.height- (aView.frame.origin.y-point.y) * cropBox.size.height / (self.frame.size.height/zoom- 2* point.y)- frame.size.height;
     
-    NSLog(@"offset x:%f ,y:%f",scrollView.contentOffset.x,scrollView.contentOffset.y);
     return frame;
 }
 
@@ -315,6 +333,14 @@
 -(void)finishAnnotCreation:(id)sender{
     [annotTextView resignFirstResponder];
     [detailVC.navigationItem setRightBarButtonItem:nil animated:YES];
+}
+
+-(void)restoreScrollViewZoom:(NSArray*)values{
+    CGFloat zoom=[(NSNumber*)[values objectAtIndex:0] floatValue];
+    CGPoint offset = CGPointMake([(NSNumber*)[values objectAtIndex:1] floatValue],[(NSNumber*)[values objectAtIndex:2] floatValue]);
+    UIScrollView *scrollView = (UIScrollView*)detailVC.view;
+    scrollView.zoomScale=zoom;
+    scrollView.contentOffset = offset;
 }
 
 @end

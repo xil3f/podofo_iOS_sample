@@ -54,6 +54,11 @@
      The point where a new annotation starts during the creation of a new square annotation.
      */
     CGPoint nAnnotStartPoint;
+    
+    /**
+     Contains on position 0: zoom of the scrollView as float NSNumber, position 1 and 2 are offset x and offset y of the scrollView as float NSNumber. If this array is not nil, the scrollViews zoom parameters will be set to these values after rendering.
+     */
+    NSArray *zoomValues;
 }
 
 /**
@@ -137,5 +142,10 @@
  Stops the creation of the current FreeText annotation by resigning its first responder on the iPhone.
  */
 - (void) finishAnnotCreation:(id)sender;
+
+/**
+ Sets the zoom of the scrollView displaying the pdf file to the values defined in zoomValues
+ */
+- (void)restoreScrollViewZoom:(NSArray*)zoomValues;
 
 @end
